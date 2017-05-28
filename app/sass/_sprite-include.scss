@@ -1,0 +1,37 @@
+@import "sprite";
+
+.sprite-inline {
+  display: inline-block;
+}
+
+.sprite-webvision {
+  @include sprite($webvision);
+}
+
+.sprite-stick {
+  @include sprite($stick);
+}
+
+.sprite-d-1 {
+  @include sprite($d-1);
+}
+
+.sprite-d-2 {
+  @include sprite($d-2);
+}
+
+.sprite-help-1 {
+  @include sprite($help-1);
+}
+
+.sprite-help-2 {
+  @include sprite($help-2);
+}
+
+.sprite-preloader-1 {
+  @include sprite($preload-1);
+}
+
+.sprite-preloader-2 {
+  @include sprite($preload-2);
+}

@@ -1,0 +1,22 @@
+@import "fonts";
+@import "../fonts/icomoon/style";
+
+@import "var";
+@import "mixin";
+@import "sprite-include";
+@import "typography";
+@import "classes/class";
+@import "parts/footer";
+@import "parts/header";
+@import "parts/main-page";
+@import "parts/breadcrumbs";
+@import "parts/pagination";
+@import "parts/product";
+
+
+
+@import "style";
+@import "$4desktop-under";
+@import "$1desktop";
+@import "$2tablet";
+@import "$3mobile";
