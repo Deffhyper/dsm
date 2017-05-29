@@ -345,6 +345,7 @@ body:after {
   background-color: #0d0e24;
   &.in {
     opacity: .88;
+    z-index: 15;
   }
 }
 

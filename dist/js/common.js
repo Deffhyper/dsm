@@ -207,21 +207,46 @@ $(function() {
     //////////////////////////////////////////////////// printer select script //////////////////////
 
     $('.select-printer__content').find('.step').on('click', function(e){
-        var target = $(e.target);
-        var that = $(this);
-        var stepIndex = that.eq();
-        var itemIndex = target.eq();
+        e.preventDefault();
 
-        console.log(stepIndex, itemIndex);
+        var target = $(e.target),
+            selectPrinterNav = $('.select-printer__nav');
 
-        //if($(target).closest('.step') && $(target).hasClass('step-list__item--image') || $(target).hasClass('step-list__item--title')){
-        //    console.log('step', $(this).closest('.step').eq());
-        //    $(target).closest('.step').removeClass('active').next('.step').addClass('active');
-        //}
-        //if($(target).closest('.step-one')) {
-        //    $('.select-printer__nav').find('li.active').removeClass('active').next('li').addClass('active')
-        //}
+        if(target.closest('li').hasClass('step-list__item')) {
+            target.closest('.step').not('.step.step-three').removeClass('active').next().addClass('active');
+            selectPrinterNav.find('li.active:not(:last-child)').removeClass('active').next().addClass('active');
+        }
+        if (target.closest('.step').hasClass('step-three')){
+            if (target.closest('li').hasClass('step-list__item')){
+
+                // если последний шаг выбора формируем ссылку на товар
+                location.href="https://google.com.ua";
+            }
+        }
+        if (target.hasClass('step-list__item--back')){
+            target.closest('.step').removeClass('active').prev().addClass('active');
+            selectPrinterNav.find('li.active').removeClass('active').prev().addClass('active');
+        }
+
     });
+
+    /////////////////////////////////// cartridge select /////////////////////////////////////
+
+    $('.step-list__item').on('click', function(e){
+        if(e.target.className != "mCSB_buttonUp" || e.target.className != "mCSB_buttonDown") {
+            e.preventDefault();
+        }
+
+
+        var target = e.target;
+        if ($(target).text() && $(target).attr('href')) {
+           $(this).find('.select-cartridge__title--print').text($(target).text());
+        }
+
+
+
+    });
+
 
     ////////////////////////////////// menu custom scroll bar //////////////////////////
 
@@ -234,6 +259,84 @@ $(function() {
             scrollAmount: 37
         }
 
+    });
+
+    ///////////////////////////////////////////// tablet menu /////////////////////////////////
+
+    function tabletMenu(windowWidth) {
+
+        if (windowWidth < 1260) {
+            $('#menu-trigger').unbind('click').bind('click', function (e) {
+                e.preventDefault();
+
+                var $dropmenu = $('.site-header-bottom');
+
+                if ($dropmenu.is(':visible')) {
+                    $dropmenu.removeClass('active');
+                    $('#menu-trigger').removeClass('active');
+                    $('body').removeClass('main-menu-open');
+                    $(document).find('.menu-blur').remove();
+                } else {
+                    $dropmenu.addClass('active');
+                    $('#menu-trigger').addClass('active');
+                    $('body').addClass('main-menu-open');
+                    $('body').append('<div class="menu-blur"></div>');
+                }
+
+            });
+
+            $('.site-header-tablet-menu').find('.top-menu').on('click', function (e) {
+                var target = e.target;
+                if ($(target).closest('li').hasClass('with-children')) {
+                    e.preventDefault();
+                    console.log('has child');
+                    $(target).closest('li').find('div').eq(0).show(0, function () {
+
+                        if(windowWidth < 769) {
+                            $(this).animate({'left': 0}, 300);
+                        } else {
+                            $(this).animate({'left': '-20px'}, 300);
+                        }
+
+
+                    });
+                }
+                if ($(target).closest('a').hasClass('button-back')) {
+                    console.log('back');
+                    e.preventDefault();
+                    $(target).closest('div').animate({
+                        'left': '-9999px'
+                    }, 300);
+                }
+            });
+
+        } else {
+
+            $('#trigger-menu').unbind('click');
+            $('.main-drop-mnu__item--list').unbind('click');
+            $('.main-drop-mnu__item--list').find('ul').removeAttr('style');
+
+        }
+    }
+
+    $(window).ready(tabletMenu(windowWidth)).resize(function () {
+        tabletMenu($(window).width());
+    });
+
+
+    ///////////////////////////////////////// close main menu
+
+    $(window).on('click', function(e){
+
+        if ($('.site-header-bottom').is(':visible')){
+
+            if (innerWidth < 1280 && $(e.target).hasClass('menu-blur')) {
+                console.log('close');
+                $('#menu-trigger').trigger('click');
+                $('.main-drop-mnu__item--list').find('ul, li').removeAttr('style');
+
+            }
+        }
     });
 
 
