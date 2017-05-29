@@ -775,6 +775,7 @@
 
 .mob-catalog-double {
   margin: 22px 0 0;
+  display: none;
   .btn {
     width: 100%;
     .caret {
@@ -998,6 +999,10 @@
 
   .site-header-top__cart:hover {
     background-color: #c7cfe6;
+  }
+
+  .mob-catalog-double {
+    display: block;
   }
 
 

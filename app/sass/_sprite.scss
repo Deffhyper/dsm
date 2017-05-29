@@ -53,6 +53,17 @@ $help-2-total-width: 348px;
 $help-2-total-height: 887px;
 $help-2-image: '../img/png_sprite/sprite.png';
 $help-2: (262px, 212px, -262px, -212px, 53px, 50px, 348px, 887px, '../img/png_sprite/sprite.png', 'help-2', );
+$modal-close-name: 'modal-close';
+$modal-close-x: 315px;
+$modal-close-y: 212px;
+$modal-close-offset-x: -315px;
+$modal-close-offset-y: -212px;
+$modal-close-width: 22px;
+$modal-close-height: 22px;
+$modal-close-total-width: 348px;
+$modal-close-total-height: 887px;
+$modal-close-image: '../img/png_sprite/sprite.png';
+$modal-close: (315px, 212px, -315px, -212px, 22px, 22px, 348px, 887px, '../img/png_sprite/sprite.png', 'modal-close', );
 $preload-1-name: 'preload-1';
 $preload-1-x: 217px;
 $preload-1-y: 0px;
@@ -111,7 +122,7 @@ $webvision: (217px, 350px, -217px, -350px, 87px, 15px, 348px, 887px, '../img/png
 $spritesheet-width: 348px;
 $spritesheet-height: 887px;
 $spritesheet-image: '../img/png_sprite/sprite.png';
-$spritesheet-sprites: ($d-1, $d-2, $help-1, $help-2, $preload-1, $preload-2, $stick, $webvision-hover, $webvision, );
+$spritesheet-sprites: ($d-1, $d-2, $help-1, $help-2, $modal-close, $preload-1, $preload-2, $stick, $webvision-hover, $webvision, );
 $spritesheet: (348px, 887px, '../img/png_sprite/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
