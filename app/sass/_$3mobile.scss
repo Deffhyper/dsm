@@ -1,6 +1,64 @@
 @media ($mobile) {
+  .body {
+    line-height: 1.6;
+    font-size: 13px;
+  }
   .row {
     margin-left: -5px;
     margin-right: -5px;
   }
+
+  .small-only {
+    display: table;
+  }
+
+  .resp-table +.responsive-table {
+    display: none;
+  }
+
+  .page-title {
+    margin: 15px 0;
+    font-size: 24px;
+    line-height: 1.1;
+  }
+
+  .text-section img {
+    margin: 0 auto 20px !important;
+    display: block;
+    float: none;
+  }
+
+  .text-section p {
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .text-section blockquote {
+    padding: 55px 20px 10px 20px;
+  }
+
+  .text-section blockquote .blockquote-label {
+    top: -10px;
+    left: 50%;
+    transform: scale(.67) translateX(-75%);
+  }
+
+  .text-section blockquote p {
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .text-section iframe {
+    max-height: 170px;
+    margin-bottom: 50px;
+  }
+
+
+
+
+
+
+
+
+
 }

@@ -158,7 +158,7 @@ $(function() {
 
     ///////////////////////////////////////////// responsive table ///////////////////
 
-    $('.responsive-table').cardtable({
+    $('.text-section').find('table').addClass('responsive-table').cardtable({
         myClass:'resp-table',
         headIndex: 2
     });
@@ -337,6 +337,12 @@ $(function() {
 
             }
         }
+    });
+
+    ///////////////////////////// mob catalog double /////////////////////
+
+    $('.mob-catalog-double__link').on('click', function(){
+       $(this).next().slideToggle();
     });
 
 

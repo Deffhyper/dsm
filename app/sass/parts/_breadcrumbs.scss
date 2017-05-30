@@ -1,0 +1,39 @@
+.breadcrumbs {
+  background-color: #f2f4fa;
+  padding: 18px 0 15px;
+  color: #8a8b94;
+  font-size: 13px;
+
+  li {
+    display: inline-block;
+    &:not(:last-child){
+      position: relative;
+      a {
+        transition: .3s ease;
+        &:hover {
+          color: $second-accent-hover;
+        }
+      }
+      &:after {
+        content: '';
+        @include sprite($bread-arrow);
+        display: inline-block;
+        margin: 0 10px;
+        position: relative;
+        bottom: 1px;
+      }
+    }
+  }
+  .icon-home {
+    margin: 0 10px 0 5px;
+  }
+}
+
+
+@media($mobile){
+
+  .breadcrumbs {
+    padding: 13px 0 10px;
+  }
+
+}

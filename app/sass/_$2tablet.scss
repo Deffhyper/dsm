@@ -1,3 +1,61 @@
 @media ($tablet) {
 
+  .text-section iframe {
+    width: 100%;
+  }
+  .page-title {
+    margin: 20px 0;
+  }
+
+  .text-section img {
+    margin-bottom: 20px !important;
+    max-width: 300px;
+  }
+
+  .text-section img[align="left"] {
+    margin-right: 20px;
+
+  }
+
+  .text-section img[align="right"] {
+    margin-left: 20px;
+  }
+
+  .text-section h2 {
+    margin: 13px 0;
+  }
+
+  .text-section h3 {
+    margin: 17px 0;
+  }
+
+  .text-section h4 {
+    margin: 10px 0;
+  }
+
+  .responsive-table tbody tr td:first-child {
+    width: 9%;
+  }
+
+  .responsive-table tbody tr td:nth-child(2) {
+    width: 57%;
+  }
+
+  .responsive-table {
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
