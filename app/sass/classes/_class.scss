@@ -593,7 +593,20 @@ span.bs-caret {
   }
 }
 
+.margin-bottom-lg {
+  margin-bottom: 100px;
+}
 
+@media ($tablet) {
+  .margin-bottom-lg {
+    margin-bottom: 55px;
+  }
+}
+@media ($mobile) {
+  .margin-bottom-lg {
+    margin-bottom: 35px;
+  }
+}
 
 
 

@@ -204,9 +204,7 @@
         }
       }
     }
-
   }
-
 }
 
 .resp-table .responsive-table tbody > tr > td:first-child {
@@ -214,3 +212,97 @@
   font-family: $font-bold;
   padding-right: 5px;
 }
+
+/////////////////////////////////////////////////// catalog ////////////////////////////////////////////////
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  &__item {
+    width: 32%;
+    padding: 20px;
+    border: 1px solid #e8edf5;
+    margin-bottom: 25px;
+    margin-right: 2%;
+    &:nth-child(3n+3){
+      margin-right: 0;
+    }
+    tbody {
+      tr {
+        td{
+          &:first-child {
+            padding-right: 15px;
+            vertical-align: top;
+          }
+          &:last-child {
+            vertical-align: middle;
+            width: 80%;
+            padding-right: 15px;
+            a {
+              transition: .3s ease;
+              display: inline-block;
+              &:hover {
+                color: $accent;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+    ul {
+      padding-left: 67px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      li {
+        margin-bottom: 10px;
+        a {
+          transition: .3s ease;
+          display: inline-block;
+          &:hover {
+            color: $second-accent;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
