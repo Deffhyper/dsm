@@ -724,21 +724,6 @@ span.bs-caret {
           filter: none;
   opacity: 1; }
 
-.mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonDown, .mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonLeft, .mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonRight, .mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonUp {
-  background-image: url("img/jpeg_files/mCSB_buttons.png");
-  opacity: 1;
-  background-color: #e3e6ef;
-  filter: "alpha(opacity=100)";
-  -ms-filter: "alpha(opacity=100)"; }
-  .mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonDown:hover, .mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonLeft:hover, .mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonRight:hover, .mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonUp:hover {
-    background-color: #cfd2db; }
-
-.mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonDown {
-  background-position: -96px -20px; }
-
-.mCS-scroll-bar-theme .mCSB_scrollTools .mCSB_buttonUp {
-  background-position: -96px 0; }
-
 .mCS-scroll-bar-theme .mCSB_container li {
   height: 36px; }
   .mCS-scroll-bar-theme .mCSB_container li a {
@@ -2103,7 +2088,7 @@ body:after {
   .top-menu-catalog__dropdown--item table {
     margin-bottom: 0; }
   .top-menu-catalog__dropdown--item {
-    display: inline-block;
+    display: block;
     border-top: 1px solid #d8def0;
     padding: 10px 0;
     cursor: pointer;
@@ -3097,6 +3082,20 @@ body:after {
 @media (max-width: 767px) {
   .breadcrumbs {
     padding: 13px 0 10px; } }
+
+.mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight, .mCSB_scrollTools .mCSB_buttonUp {
+  background: #e3e6ef url("../img/jpeg_files/mCSB_buttons.png");
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)"; }
+  .mCSB_scrollTools .mCSB_buttonDown:hover, .mCSB_scrollTools .mCSB_buttonLeft:hover, .mCSB_scrollTools .mCSB_buttonRight:hover, .mCSB_scrollTools .mCSB_buttonUp:hover {
+    background-color: #cfd2db; }
+
+.mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -96px -20px; }
+
+.mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -96px 0; }
 
 .page-title {
   margin: 30px 0;

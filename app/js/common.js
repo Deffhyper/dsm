@@ -292,7 +292,7 @@ $(function() {
                     console.log('has child');
                     $(target).closest('li').find('div').eq(0).show(0, function () {
 
-                        if(windowWidth < 769) {
+                        if(innerWidth < 767) {
                             $(this).animate({'left': 0}, 300);
                         } else {
                             $(this).animate({'left': '-20px'}, 300);
