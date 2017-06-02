@@ -13,6 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-justice:before {
+  content: "\e90a";
+}
+.icon-home:before {
+  content: "\e909";
+}
 .icon-clock:before {
   content: "\e900";
 }
@@ -39,7 +45,4 @@
 }
 .icon-yt:before {
   content: "\e908";
-}
-.icon-home:before {
-  content: "\e909";
 }

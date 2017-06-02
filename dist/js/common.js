@@ -36,7 +36,7 @@ $(function() {
     $('.top-slider-bg').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        infinite: false,
+        infinite: true,
         arrows: false,
         //fade: true,
         dots: false,
@@ -46,7 +46,7 @@ $(function() {
     $('.top-slider-left').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        infinite: false,
+        infinite: true,
         asNavFor: '.top-slider-bg',
         arrows: true,
         dots: true,
@@ -219,7 +219,7 @@ $(function() {
         if (target.closest('.step').hasClass('step-three')){
             if (target.closest('li').hasClass('step-list__item')){
 
-                // ÂÒÎË ÔÓÒÎÂ‰ÌËÈ ¯‡„ ‚˚·Ó‡ ÙÓÏËÛÂÏ ÒÒ˚ÎÍÛ Ì‡ ÚÓ‚‡
+                // –µ—Å–ª–∏ –ø–æ—Å–ª–µ–¥–Ω–∏–π —à–∞–≥ –≤—ã–±–æ—Ä–∞ —Ñ–æ—Ä–º–∏—Ä—É–µ–º —Å—Å—ã–ª–∫—É –Ω–∞ —Ç–æ–≤–∞—Ä
                 location.href="https://google.com.ua";
             }
         }
@@ -339,11 +339,59 @@ $(function() {
         }
     });
 
+
+
     ///////////////////////////// mob catalog double /////////////////////
 
     $('.mob-catalog-double__link').on('click', function(){
        $(this).next().slideToggle();
     });
+
+
+    $("#slider-range").slider({
+        range: true,
+        min: 2790,
+        max: 580800,
+        values: [2790, 580800],
+        slide: function (event, ui) {
+            $("#amount-max").val(ui.values[1]);
+            $("#amount-min").val(ui.values[0]);
+        }
+    });
+
+    $("#amount-max").val($("#slider-range").slider("values", 1));
+    $("#amount-min").val($("#slider-range").slider("values", 0));
+
+    $("#amount-max, #amount-min").on('blur', function(){
+        var aMax = $('#amount-max').val();
+        var aMin = $('#amount-min').val();
+        var absolutMin = Number($("#slider-range").slider("option", "min"));
+
+        if(aMin > aMax){
+            $("#slider-range").slider("values", [aMin, aMin]);
+            $("#amount-min").val(absolutMin);
+
+        } else {
+            $("#slider-range").slider("values", [aMin, aMax]);
+
+        }
+    });
+
+
+    $('.compare-link').on('click', function(e){
+        e.preventDefault();
+
+        if(!$(this).hasClass('active')) {
+            $(this).addClass('active');
+            $(this).find('.tooltip span').text('–≤ —Å—Ä–∞–≤–Ω–µ–Ω–∏–∏');
+        } else {
+            $(this).removeClass('active');
+            $(this).find('.tooltip span').text('–¥–æ–±–∞–≤–∏—Ç—å –≤ —Å—Ä–∞–≤–Ω–µ–Ω–∏–µ');
+        }
+
+    });
+
+
 
 
 });

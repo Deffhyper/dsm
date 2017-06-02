@@ -47,14 +47,14 @@
 
   //////////////////////////////////////////////////////// catalog ////////////////////////////////////////
 
-  .catalog__item {
+  .category__item {
     width: 49%;
     margin-right: 2%;
   }
-  .catalog__item:nth-child(3n+3) {
+  .category__item:nth-child(3n+3) {
     margin-right: 2%;
   }
-  .catalog__item:nth-child(2n+2) {
+  .category__item:nth-child(2n+2) {
     margin-right: 0;
   }
 

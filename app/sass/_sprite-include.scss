@@ -35,3 +35,15 @@
 .sprite-preloader-2 {
   @include sprite($preload-2);
 }
+
+.sprite-d-arrow-right {
+  @include sprite($d-arrow-right);
+}
+
+.sprite-d-arrow-left {
+  @include sprite($d-arrow-left);
+}
+
+.sprite-spinner {
+  @include sprite($spinner);
+}

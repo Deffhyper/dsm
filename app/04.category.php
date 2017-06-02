@@ -12,8 +12,8 @@
 
 <div class="container">
     <div class="row">
-        <ul class="catalog">
-            <li class="catalog__item">
+        <ul class="category">
+            <li class="category__item">
                 <table>
                     <tbody>
                     <tr>
@@ -28,7 +28,7 @@
                     <li><a href="#">Струйные многофункциональные устройства </a></li>
                 </ul>
             </li>
-            <li class="catalog__item">
+            <li class="category__item">
                 <table>
                     <tbody>
                     <tr>
@@ -48,7 +48,7 @@
                     <li><a href="#">Ресурсные материалы</a></li>
                 </ul>
             </li>
-            <li class="catalog__item">
+            <li class="category__item">
                 <table>
                     <tbody>
                     <tr>
@@ -63,7 +63,7 @@
                     <li><a href="#">Линейно-матричные принтеры</a></li>
                 </ul>
             </li>
-            <li class="catalog__item">
+            <li class="category__item">
                 <table>
                     <tbody>
                     <tr>
@@ -78,7 +78,7 @@
                     <li><a href="#">Планшетные сканеры</a></li>
                 </ul>
             </li>
-            <li class="catalog__item">
+            <li class="category__item">
                 <table>
                     <tbody>
                     <tr>
@@ -93,7 +93,7 @@
                     <li><a href="#">Широкоформатные многофункциональные устройства</a></li>
                 </ul>
             </li>
-            <li class="catalog__item">
+            <li class="category__item">
                 <table>
                     <tbody>
                     <tr>
