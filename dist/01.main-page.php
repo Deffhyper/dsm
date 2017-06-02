@@ -865,11 +865,6 @@
                 <a href="#" class="main-news__all btn btn-link btn-caret"><span>смотреть все</span></a>
                 <ul class="main-news-list">
                     <li class="main-news-list__item">
-                        <div class="main-news-list__item--time">
-                            <p>25</p>
-
-                            <p>апр</p>
-                        </div>
                         <div class="main-news-list__item--image">
                             <a href="#">
                                 <img src="img/jpeg_files/n-1.jpg" alt="image">
@@ -878,6 +873,9 @@
                         <div class="main-news-list__item--title">
                             <a href="#" class="text-bold">Canon imagePROGRAF iPF830 - функциональность и
                                 производительность</a>
+                        </div>
+                        <div class="main-news-list__item--time">
+                            <time>25 апреля 2017</time>
                         </div>
                         <div class="main-news-list__item--text">
                             <p>Плоттер Canon imagePROGRAF iPF830 обладает лучшими в своем классе функциональностью и
@@ -888,10 +886,6 @@
                         </div>
                     </li>
                     <li class="main-news-list__item">
-                        <div class="main-news-list__item--time">
-                            <p>25</p>
-                            <p>апр</p>
-                        </div>
                         <div class="main-news-list__item--image">
                             <a href="#">
                                 <img src="img/jpeg_files/n-2.jpg" alt="image">
@@ -900,6 +894,9 @@
                         <div class="main-news-list__item--title">
                             <a href="#" class="text-bold">Canon продемонстрировал МФУ для стартаперов imageRUNNER
                                 ADVANCE С75ХХ</a>
+                        </div>
+                        <div class="main-news-list__item--time">
+                            <time>25 апреля 2017</time>
                         </div>
                         <div class="main-news-list__item--text">
                             <p>В ноябре 2016 года порфтолио многофункциональных устройств компании Canon пополнилось
@@ -910,10 +907,6 @@
                         </div>
                     </li>
                     <li class="main-news-list__item">
-                        <div class="main-news-list__item--time">
-                            <p>25</p>
-                            <p>апр</p>
-                        </div>
                         <div class="main-news-list__item--image">
                             <a href="#">
                                 <img src="img/jpeg_files/n-3.jpg" alt="image">
@@ -922,6 +915,9 @@
                         <div class="main-news-list__item--title">
                             <a href="#" class="text-bold">Уникальное предложение – полноцветная печать Ваших документов
                                 по цене от 2 гривен за А4!</a>
+                        </div>
+                        <div class="main-news-list__item--time">
+                            <time>25 апреля 2017</time>
                         </div>
                         <div class="main-news-list__item--text">
                             <p>Если вам необходимо компактное и простое в управлении цветное МФУ формата A3, то мы

@@ -13,55 +13,65 @@
 <div class="container">
     <div class="row">
         <div class="left-sidebar">
-            <ul class="sidebar__list">
-                <li><a href="#">Многофункциональные устройства </a></li>
-                <li class="active"><a href="#">Принтеры</a></li>
-                <li><a href="#">Широкоформатные принтеры (плоттеры) и многофункцио- нальные устройства</a></li>
-                <li><a href="#">Картриджи и расходные материалы</a></li>
-                <li><a href="#">Сканеры</a></li>
-                <li><a href="#">Бумага и пленки</a></li>
-            </ul>
+            <div class="sidebar__list-wrapper">
+                <a href="#" class="category-mob-title category-mob-title--gray">Выбрать категорию<span class="caret"></span></a>
+                <ul class="sidebar__list">
+                    <li><a href="#">Многофункциональные устройства </a></li>
+                    <li class="active"><a href="#">Принтеры</a></li>
+                    <li><a href="#">Широкоформатные принтеры (плоттеры) и многофункцио- нальные устройства</a></li>
+                    <li><a href="#">Картриджи и расходные материалы</a></li>
+                    <li><a href="#">Сканеры</a></li>
+                    <li><a href="#">Бумага и пленки</a></li>
+                </ul>
+            </div>
+
+
             <?php include_once "parts/filter.php"?>
         </div>
 
         <div class="right-block">
-            <ul class="sub-category">
-                <li class="sub-category__item">
-                    <div class="sub-category__item--image">
-                        <img src="img/jpeg_files/cat-1.jpg" alt="category icon">
-                    </div>
-                    <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Лазерные принтеры</a>
-                </li>
-                <li class="sub-category__item">
-                    <div class="sub-category__item--image">
-                        <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
-                    </div>
-                    <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
-                </li>
-                <li class="sub-category__item">
-                    <div class="sub-category__item--image">
-                        <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
-                    </div>
-                    <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
-                </li>
-                <li class="sub-category__item">
-                    <div class="sub-category__item--image">
-                        <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
-                    </div>
-                    <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
-                </li>
-                <li class="sub-category__item">
-                    <div class="sub-category__item--image">
-                        <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
-                    </div>
-                    <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
-                </li>
-            </ul>
+            <div class="sub-category__wrapper">
+                <a href="#" class="category-mob-title">Выбрать подкатегорию<span class="caret"></span></a>
+                <ul class="sub-category">
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-1.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Лазерные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
+                    </li>
+                </ul>
+            </div>
+
             <div class="catalog">
                 <h2 class="catalog__title">Все товары “Принтеры”</h2>
                 <div class="catalog__sort">
                     <span class="catalog__sort--label text-bold">Сортировать: </span>
                     <ul class="catalog__sort--list">
+                        <li class="init"><a href="#">сортировать по</a></li>
                         <li class="active"><a href="#">Новинка</a></li>
                         <li><a href="#">Акция</a></li>
                         <li><a href="#">По возрастанию цены</a></li>
@@ -477,7 +487,7 @@
                 </ul>
                 <?php include_once "parts/pagination.php" ?>
                 <div class="catalog__btn">
-                    <a href="#">еще <span class="sprite-inline sprite-spinner"></span></a>
+                    <a href="#" class="btn btn--gray btn-round">еще <span class="sprite-inline sprite-spinner"></span></a>
                 </div>
             </div>
             <div class="seo-text text-section margin-bottom-lg">

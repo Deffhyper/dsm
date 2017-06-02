@@ -45,7 +45,7 @@
     margin-bottom: 20px;
   }
 
-  //////////////////////////////////////////////////////// catalog ////////////////////////////////////////
+  //////////////////////////////////////////////////////// category ////////////////////////////////////////
 
   .category__item {
     width: 49%;
@@ -56,6 +56,55 @@
   }
   .category__item:nth-child(2n+2) {
     margin-right: 0;
+  }
+
+
+  //////////////////////////////////////////////////// catalog //////////////////////////////////////////////
+  .left-sidebar {
+    width: 31%;
+  }
+  .right-block {
+    width: 69%;
+  }
+  .catalog__sort--list {
+    //display: none;
+  }
+
+  .catalog {
+
+    .goods-image {
+      height: 200px;
+    }
+
+    .goods-title {
+      height: 100px;
+      & > a {
+        height: 60px;
+        line-height: 1.5;
+        font-size: 13px;
+      }
+    }
+
+    .catalog__list--item .goods-prop ul {
+      height: 40px;
+    }
+
+    .catalog__list--item {
+      margin-bottom: 15px;
+    }
+
+    .goods-price {
+      padding: 20px 10px;
+    }
+
+  }
+
+  .catalog__list {
+    margin-bottom: 5px;
+  }
+
+  .catalog__btn {
+    padding: 25px 0 25px;
   }
 
 

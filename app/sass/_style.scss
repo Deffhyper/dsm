@@ -295,6 +295,13 @@
   display: inline-block;
   vertical-align: top;
   margin-bottom: 50px;
+  .sub-category__wrapper {
+    display: none;
+  }
+}
+
+.category-mob-title {
+  display: none;
 }
 
 .sidebar__list {
@@ -530,6 +537,9 @@
 
       li {
         display: inline-block;
+        &.init {
+          display: none;
+        }
         &:not(:last-child){
           margin-right: 10px;
         }
@@ -556,12 +566,13 @@
     &--item {
       display: inline-block;
       width: 31%;
-      margin-right: -2px;
       padding-bottom: 25px;
       margin-bottom: 25px;
+      vertical-align: top;
+      margin-right: 3%;
 
-      &:not(:nth-child(3n+3)){
-        margin-right: 3%;
+      &:nth-child(3n+3){
+        margin-right: 0;
       }
 
       .goods {
@@ -572,6 +583,20 @@
         ul {
           height: 45px;
         }
+      }
+    }
+  }
+
+  &__btn {
+    text-align: center;
+    padding: 30px 0 10px;
+    .btn {
+      width: 185px;
+      .sprite-spinner {
+        margin-left: 10px;
+        position: relative;
+        top: 1px;
+        animation: spin 15s linear infinite;
       }
     }
   }

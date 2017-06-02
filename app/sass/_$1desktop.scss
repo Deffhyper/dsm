@@ -1,5 +1,116 @@
 @media ($desktop) {
 
+  .left-sidebar {
+    width: 25%;
+  }
+
+  .right-block {
+    width: 75%;
+    padding-left: 23px;
+  }
+
+  .link__second-accent--borderDotted {
+    font-size: 13px;;
+  }
+
+  .sidebar__list {
+    margin-bottom: 20px;
+  }
+
+  .sidebar-range__val .range-from {
+    margin-right: 25px;
+  }
+
+  .sidebar-range__val .range-from:after {
+    right: -18px;
+  }
+
+  .catalog__list--item {
+    width: 47%;
+    margin-right: 4%;
+  }
+  .catalog__list--item:nth-child(3n+3) {
+    margin-right: 4%;
+  }
+  .catalog__list--item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  .sub-category__item {
+    width: 49%;
+    margin-right: 1%;
+    margin-bottom: 45px;
+  }
+  .sub-category__item:nth-child(3n+3) {
+    margin-right: 1%;
+  }
+  .sub-category__item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  .sub-category {
+    padding-top: 25px;
+    margin-bottom: -24px;
+  }
+
+  .catalog__sort {
+    position: relative;
+  }
+
+  .catalog__sort--list {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    li {
+      display: none;
+      position: relative;
+      z-index: 10;
+      background-color: #fff;
+      &:not(.init) a{
+        border: 0;
+        border-radius: 0;
+        &:hover {
+          background-color: #f2f4fa;
+        }
+      }
+      &.init {
+        display: inline-block;
+        position: relative;
+        padding: 10px 24px 10px 0;
+        border: 1px solid #e8edf5;
+        border-radius: 42px;
+        &.open:after{
+          transform: rotateZ(-45deg);
+        }
+        &:after {
+          content: '';
+          display: inline-block;
+          width: 5px;
+          height: 5px;
+          margin-left: 0;
+          vertical-align: middle;
+          border-top: 1px solid #2c2f7c;
+          border-right: 1px solid #2c2f7c;
+          border-left: 0;
+          transform: rotateZ(135deg);
+          transition: .3s ease;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+        }
+        a {
+          display: inline;
+          border: 0;
+          background-color: #fff !important;
+        }
+
+      }
+    }
+  }
+
+  .catalog__sort--list li:not(:last-child) {
+    margin-right: 0;
+  }
 
 
 

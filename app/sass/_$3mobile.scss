@@ -1,4 +1,9 @@
 @media ($mobile) {
+
+  h2 {
+    font-size: 19px;
+  }
+
   .body {
     line-height: 1.6;
     font-size: 13px;
@@ -18,7 +23,7 @@
 
   .page-title {
     margin: 15px 0;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.1;
   }
 
@@ -54,7 +59,7 @@
   }
 
 
-  //////////////////////////////////////////////////////// catalog ////////////////////////////////////////
+  //////////////////////////////////////////////////////// category ////////////////////////////////////////
 
   .category {
     display: block;
@@ -66,8 +71,114 @@
     margin: 0 auto 20px !important;
   }
 
+  //////////////////////////////////////////////// catalog ////////////////////////////////////////////////
 
+  .left-sidebar {
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
 
+  .right-block {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .catalog__list--item {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+
+  .catalog__list--item .goods {
+    margin: auto;
+    max-width: 300px;
+  }
+
+  .right-block .sub-category__wrapper {
+    display: none;
+  }
+
+  .left-sidebar .sub-category__wrapper {
+    display: block;
+  }
+
+  .sub-category__item {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 50px;
+  }
+
+  .category-mob-title {
+    display: block;
+    font-family: $font-normal;
+    position: relative;
+    border: 1px solid #e8edf5;
+    padding: 13px 20px;
+
+    &.open {
+      .caret {
+        transform: rotate(-45deg);
+      }
+    }
+    
+    .caret {
+      position: absolute;
+      top: 23px;
+      right: 20px;
+    }
+
+    &--gray {
+      font-family: $font-bold;
+    }
+  }
+.left-sidebar-wrapper {
+  margin-bottom: 15px;
+  .sidebar__filter, .sidebar__title{
+    display: none;
+    margin-top: 10px;
+  }
+}
+  .sub-category__wrapper {
+    margin-bottom: 15px;
+    .sub-category {
+      display: none;
+      margin-top: 10px;
+    }
+  }
+
+  .sidebar__list-wrapper {
+    margin-bottom: 15px;
+    .sidebar__list {
+      display: none;
+      margin-top: 10px;
+    }
+  }
+
+  span.catalog__sort--label.text-bold {
+    display: block;
+  }
+
+  .catalog__sort--list li.init {
+    width: 100%;
+  }
+
+  .catalog__sort--list {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .catalog__title {
+    font-size: 20px;
+  }
+
+  .old-price {
+    margin-right: 45px;
+  }
 
 
 

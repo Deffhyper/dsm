@@ -468,7 +468,7 @@ $slider-height: 540px;
     width: 32%;
     position: relative;
     background-color: #fff;
-    height: 485px;
+    height: 510px;
     display: inline-block;
     vertical-align: top;
 
@@ -477,25 +477,13 @@ $slider-height: 540px;
     }
 
     &--time {
-      color: #fff;
-      background-color: $accent;
-      text-align: center;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      padding-top: 19px;
-      position: absolute;
-      top: 23px;
-      left: 23px;
-      z-index: 1;
+      padding: 0 25px;
+      margin-bottom: 15px;
 
-      p:first-child {
-        font-family: $font-black;
-        font-size: 18px;
-        line-height: .7;
-      }
-      p:last-child {
-        font-size: 12px;
+      time {
+        font-size: 13px;
+        font-family: $font-light-italic;
+        color: #77777f;
       }
     }
     &--image {
@@ -517,7 +505,7 @@ $slider-height: 540px;
     }
 
     &--title {
-      padding: 25px 30px 10px 30px;
+      padding: 25px 25px 0 25px;
       font-size: 15px;
       line-height: 1.5;
       a {
@@ -533,7 +521,7 @@ $slider-height: 540px;
     }
 
     &--text {
-      padding: 0 30px;
+      padding: 0 25px;
       font-size: 13px;
       margin-bottom: 15px;
       overflow: hidden;
@@ -978,6 +966,12 @@ $slider-height: 540px;
   .questions__decor-3 {
     right: 260px;
   }
+
+  .old-price {
+    margin-right: 10px;
+  }
+
+
 
 }
 

@@ -434,7 +434,7 @@ span.bs-caret {
 .goods-image {
   height: 235px;
   position: relative;
-  overflow: hidden;
+  //overflow: hidden;
   a {
     display: block;
     height: 100%;
@@ -445,6 +445,8 @@ span.bs-caret {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 200px;
+    max-width: 200px;
   }
 }
 
@@ -664,50 +666,7 @@ span.bs-caret {
   overflow: hidden;
 }
 
-.pagination {
-  text-align: center;
-  li {
-    display: inline-block;
-    &:not(:last-child){
-      margin-right: 5px;
-    }
-    a {
-      display: inline-block;
-      width: 47px;
-      height: 47px;
-      background-color: #f2f4fa;
-      text-align: center;
-      border-radius: 50%;
-      padding-top: 12px;
-    }
-  }
-  .disabled {
-    a {
-      pointer-events: none;
-      cursor: default;
-    }
-    .sprite-inline {
-      opacity: .5;
-    }
-  }
-  .active {
-    color: #fff;
-    a {
-      background-color: $accent;
-    }
-  }
-  .sprite-inline {
-    position: relative;
-    top: 2px;
-  }
 
-  li.pagination__left {
-    margin-right: 25px;
-  }
-  li.pagination__right {
-    margin-left: 25px;
-  }
-}
 
 
 

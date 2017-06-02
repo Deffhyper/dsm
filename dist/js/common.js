@@ -378,6 +378,8 @@ $(function() {
     });
 
 
+    //////////////////////////////// goods compare ////////////////////////////////////////////////////
+
     $('.compare-link').on('click', function(e){
         e.preventDefault();
 
@@ -389,6 +391,63 @@ $(function() {
             $(this).find('.tooltip span').text('добавить в сравнение');
         }
 
+    });
+
+    ///////////////////////////////////// goods filter ///////////////////////////////////////////////
+
+    $('.catalog__sort--list').find('li').on('click', function(e){
+        if($(this).hasClass('active')){
+            $(this).removeClass('active');
+        } else {
+            $(this).addClass('active');
+        }
+    });
+
+
+
+    function bindJsOnFilterSelectTablet(windowWidth) {
+        var catalogSort = $('.catalog__sort--list');
+        var allOptions = catalogSort.children('li:not(.init)');
+
+        if (windowWidth < 992) {
+            catalogSort.unbind('click').on("click", ".init", function(e) {
+                e.preventDefault();
+                $(this).toggleClass('open');
+                $(this).closest("ul").children('li:not(.init)').slideToggle();
+            });
+
+            catalogSort.on("click", "li:not(.init)", function(e) {
+                e.preventDefault();
+                allOptions.removeClass('selected');
+                $(this).addClass('selected');
+                catalogSort.children('.init').html($(this).html());
+                allOptions.slideToggle();
+                catalogSort.find('.init').removeClass('open');
+            });
+        } else {
+            catalogSort.unbind('click');
+            catalogSort.find('li').removeAttr('style');
+        }
+
+
+
+    }
+
+    $(window).ready(bindJsOnFilterSelectTablet(windowWidth)).resize(function () {
+        bindJsOnFilterSelectTablet(window.innerWidth);
+    });
+
+
+    ////////////////////////////////////////// mobile screen catalog subcategory ////////////////////////////
+
+    if($('.sub-category__wrapper').length && $('.sidebar__list-wrapper').length){
+        $('.sub-category__wrapper').clone().insertAfter('.sidebar__list-wrapper');
+    }
+
+    $('.category-mob-title').on('click', function(e){
+        e.preventDefault();
+        $(this).next().slideToggle();
+        $(this).toggleClass('open');
     });
 
 
