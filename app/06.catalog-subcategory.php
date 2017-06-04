@@ -13,10 +13,59 @@
 <div class="container">
     <div class="row">
         <div class="left-sidebar">
+            <div class="sidebar__list-wrapper">
+                <a href="#" class="category-mob-title category-mob-title--gray">Выбрать категорию<span class="caret"></span></a>
+                <ul class="sidebar__list">
+                    <li><a href="#">Многофункциональные устройства </a></li>
+                    <li class="active"><a href="#">Принтеры</a></li>
+                    <li><a href="#">Широкоформатные принтеры (плоттеры) и многофункцио- нальные устройства</a></li>
+                    <li><a href="#">Картриджи и расходные материалы</a></li>
+                    <li><a href="#">Сканеры</a></li>
+                    <li><a href="#">Бумага и пленки</a></li>
+                </ul>
+            </div>
+
+
             <?php include_once "parts/filter.php"?>
         </div>
 
         <div class="right-block">
+            <div class="sub-category__wrapper">
+                <a href="#" class="category-mob-title">Выбрать подкатегорию<span class="caret"></span></a>
+                <ul class="sub-category">
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-1.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Лазерные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
+                    </li>
+                    <li class="sub-category__item">
+                        <div class="sub-category__item--image">
+                            <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
+                        </div>
+                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
+                    </li>
+                </ul>
+            </div>
+
             <div class="catalog">
                 <h2 class="catalog__title">Все товары “Принтеры”</h2>
                 <div class="catalog__sort">

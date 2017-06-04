@@ -137,9 +137,8 @@ $(function() {
     /////////////////////////////////// fixed menu on scroll ////////////////////////
 
     $(document).on('scroll resize', function(){
-        if($(this).scrollTop() >= 205 && $(document).width() > 1260) {
+        if($(this).scrollTop() >= 305 && $(document).width() > 1257) {
             $('.site-header').addClass('header-fixed');
-            //$('body').css('padding-top', '205px');
             setTimeout(function(){
                 $('.site-header').addClass('change');
             },100);
@@ -147,10 +146,37 @@ $(function() {
             $('.site-header').removeClass('header-fixed');
             $('.header-menu').removeAttr("style");
             $('.site-header').removeClass('change');
-            //$('body').css('padding-top', 0);
         }
-
     });
+
+    ////////////////////////////////// trigger fix menu on scroll ///////////////////////
+
+    $('#fix-menu-trigger').on('click', function(e){
+        e.preventDefault();
+
+        $(this).toggleClass('active');
+        $('.site-header-bottom').toggleClass('open');
+    });
+
+    /////////////////////////////////////// close event for fix menu on scroll ///////////////////////
+
+    // todo
+
+    $(document).on('click', function(e){
+
+        if($('#fix-menu-trigger').hasClass('active')){
+            setTimeout(function(){
+                //console.log('fix menu active');
+            },300);
+        } else {
+            setTimeout(function(){
+                //console.log('fix menu close');
+            },100);
+
+        }
+    });
+
+
 
     //////////////////////////////////////////// masked tel input ////////////////
 
@@ -237,14 +263,31 @@ $(function() {
             e.preventDefault();
         }
 
-
         var target = e.target;
-        if ($(target).text() && $(target).attr('href')) {
+        if ($(target).text() && $(target).attr('href') && $(target).closest('.select-cartridge__list').length) {
            $(this).find('.select-cartridge__title--print').text($(target).text());
         }
+    });
 
+    ///////////////////////////////////////// cartridge select mobile /////////////////////
 
+    $('.select-cartridge').find('.step-list__item').on('click', function(e){
+        var target = e.target;
+        if(window.innerWidth < 768 && $(target).hasClass('btn')){
+            e.preventDefault();
+            if($(this).index() < 2) {
+                $(this).removeClass('mob-active').next().addClass('mob-active');
+            } else {
+                location.href="https://google.com.ua";
+            }
 
+        }
+    });
+
+    $('.select-cartridge').find('.step-list__item--back').on('click', function(e){
+        e.preventDefault();
+
+        $(this).closest('.step-list__item').removeClass('mob-active').prev().addClass('mob-active');
     });
 
 

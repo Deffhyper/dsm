@@ -199,7 +199,19 @@
                             </li>
                         </ul>
                     </div>
-
+                </div>
+            </div>
+        </div>
+        <div class="fix-menu-button__wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="fix-menu-button">
+                        <a href="#" id="fix-menu-trigger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -506,13 +518,13 @@
                                     <p class="text-bold text-uppercase tablet-menu-label"><span>Подбор картриджа</span></p>
                                     <div class="select-cartridge">
                                         <ul class="step-list">
-                                            <li class="step-list__item">
+                                            <li class="step-list__item mob-active">
                                                 <div class="select-cartridge__title">
                                                     <span>1</span>
 
                                                     <p class="text-bold">Выберите бренд:</p>
 
-                                                    <p class="select-cartridge__title--print">Canon</p>
+                                                    <p class="select-cartridge__title--print">Не выбрано</p>
                                                 </div>
                                                 <div class="select-cartridge__list">
                                                     <ul>
@@ -531,6 +543,9 @@
                                                         <li><a href="#">Konica-Minolta</a></li>
                                                         <li><a href="#">Kyocera-Mita</a></li>
                                                     </ul>
+                                                </div>
+                                                <div class="select-cartridge__button text-center">
+                                                    <a href="#" class="btn btn-link btn-round btn--blue">Дальше</a>
                                                 </div>
                                             </li>
                                             <li class="step-list__item">
@@ -540,6 +555,9 @@
                                                     <p class="text-bold">Серия принтера:</p>
 
                                                     <p class="select-cartridge__title--print">Не выбрано</p>
+
+                                                    <a href="#" class="step-list__item--back">Вернуться
+                                                        назад</a>
                                                 </div>
                                                 <div class="select-cartridge__list">
                                                     <ul>
@@ -559,6 +577,9 @@
                                                         <li><a href="#">Kyocera-Mita</a></li>
                                                     </ul>
                                                 </div>
+                                                <div class="select-cartridge__button text-center">
+                                                    <a href="#" class="btn btn-link btn-round btn--blue">Дальше</a>
+                                                </div>
                                             </li>
                                             <li class="step-list__item">
                                                 <div class="select-cartridge__title">
@@ -567,28 +588,18 @@
                                                     <p class="text-bold">Модель принтера:</p>
 
                                                     <p class="select-cartridge__title--print">Не выбрано</p>
+
+                                                    <a href="#" class="step-list__item--back">Вернуться
+                                                        назад</a>
                                                 </div>
                                                 <div class="select-cartridge__list">
                                                     <div class="select-cartridge__list--preloader">
                                                         <span class="sprite-inline sprite-preloader-1"></span>
                                                         <span class="sprite-inline sprite-preloader-2"></span>
                                                     </div>
-                                                    <!--                                                <ul>-->
-                                                    <!--                                                    <li><a href="#">Brother</a></li>-->
-                                                    <!--                                                    <li><a href="#">Canon</a></li>-->
-                                                    <!--                                                    <li><a href="#">Dymo</a></li>-->
-                                                    <!--                                                    <li><a href="#">Epson</a></li>-->
-                                                    <!--                                                    <li><a href="#">HP</a></li>-->
-                                                    <!--                                                    <li><a href="#">Konica-Minolta</a></li>-->
-                                                    <!--                                                    <li><a href="#">Kyocera-Mita</a></li>-->
-                                                    <!--                                                    <li><a href="#">Brother</a></li>-->
-                                                    <!--                                                    <li><a href="#">Canon</a></li>-->
-                                                    <!--                                                    <li><a href="#">Dymo</a></li>-->
-                                                    <!--                                                    <li><a href="#">Epson</a></li>-->
-                                                    <!--                                                    <li><a href="#">HP</a></li>-->
-                                                    <!--                                                    <li><a href="#">Konica-Minolta</a></li>-->
-                                                    <!--                                                    <li><a href="#">Kyocera-Mita</a></li>-->
-                                                    <!--                                                </ul>-->
+                                                </div>
+                                                <div class="select-cartridge__button text-center">
+                                                    <a href="#" class="btn btn-link btn-round btn--blue">Подобрать</a>
                                                 </div>
                                             </li>
 
