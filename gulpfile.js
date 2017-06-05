@@ -46,7 +46,8 @@ gulp.task('scripts', function() {
 		'app/libs/masked-input/masked-input.js',// masked input
 		'app/libs/jquery-ui-1.11.4.custom/jquery-ui.min.js',// jquery ui range slider
 		'app/libs/bootstrap-select/dist/js/bootstrap-select.min.js',// jquery ui range slider
-		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js' // custom scroll bar
+		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js', // custom scroll bar
+		'app/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js' // custom switch input
 
 
 

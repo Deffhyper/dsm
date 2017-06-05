@@ -494,6 +494,11 @@ $(function() {
     });
 
 
+    /////////////////////////////////// bootstrap switch //////////////////////////
+
+    $('.custom-switch').bootstrapSwitch();
+
+
 
 
 });

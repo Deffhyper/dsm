@@ -603,7 +603,7 @@
 
 }
 
-.goods-image .compare-link {
+.compare-link {
   display: inline-block;
   width: 54px;
   height: 54px;
@@ -642,62 +642,6 @@
     position: absolute;
     top: 13px;
     left: 12px;
-  }
-}
-
-.tooltip {
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  transform: translateY(-50%);
-  white-space: nowrap;
-  margin-left: 13px;
-  border: 1px solid rgb(223, 225, 232);
-  background-color: rgba(237, 239, 245, 0.902);
-  padding: 3px 7px 4px;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity .6s ease;
-
-  &:before {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-left: 1px solid rgb(223, 225, 232);
-    border-top: 1px solid rgb(223, 225, 232);
-    background-color: rgba(237, 239, 245, 0.902);
-    position: absolute;
-    top: 50%;
-    left: -2px;
-    transform: rotate(-45deg) translateY(-50%);
-    z-index: 21;
-  }
-  span {
-    font-size: 13px;
-    border-bottom: 2px dotted $second-accent;
-    color: $second-accent;
-    line-height: 1;
-    display: inline-block;
-  }
-}
-
-.action-sticker {
-  display: inline-block;
-  padding: 8px 12px 7px 20px;
-  border-bottom-left-radius: 30px;
-  border-top-left-radius: 30px;
-  color: #fff;
-  font-size: 13px;
-  position: absolute;
-  top: 10px;
-  right: 0;
-  z-index: 3;
-  &--red {
-    background-color: #f1574f;
-  }
-  &--green {
-    background-color: #57a043;
   }
 }
 
