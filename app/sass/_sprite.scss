@@ -119,6 +119,17 @@ $modal-close-total-width: 348px;
 $modal-close-total-height: 887px;
 $modal-close-image: '../img/png_sprite/sprite.png';
 $modal-close: (320px, 161px, -320px, -161px, 22px, 22px, 348px, 887px, '../img/png_sprite/sprite.png', 'modal-close', );
+$play-name: 'play';
+$play-x: 270px;
+$play-y: 280px;
+$play-offset-x: -270px;
+$play-offset-y: -280px;
+$play-width: 34px;
+$play-height: 34px;
+$play-total-width: 348px;
+$play-total-height: 887px;
+$play-image: '../img/png_sprite/sprite.png';
+$play: (270px, 280px, -270px, -280px, 34px, 34px, 348px, 887px, '../img/png_sprite/sprite.png', 'play', );
 $preload-1-name: 'preload-1';
 $preload-1-x: 217px;
 $preload-1-y: 0px;
@@ -199,7 +210,7 @@ $webvision: (217px, 400px, -217px, -400px, 87px, 15px, 348px, 887px, '../img/png
 $spritesheet-width: 348px;
 $spritesheet-height: 887px;
 $spritesheet-image: '../img/png_sprite/sprite.png';
-$spritesheet-sprites: ($bq, $bread-arrow, $check, $d-1, $d-2, $d-arrow-left, $d-arrow-right, $help-1, $help-2, $modal-close, $preload-1, $preload-2, $spinner, $stick, $ul-label, $webvision-hover, $webvision, );
+$spritesheet-sprites: ($bq, $bread-arrow, $check, $d-1, $d-2, $d-arrow-left, $d-arrow-right, $help-1, $help-2, $modal-close, $play, $preload-1, $preload-2, $spinner, $stick, $ul-label, $webvision-hover, $webvision, );
 $spritesheet: (348px, 887px, '../img/png_sprite/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables

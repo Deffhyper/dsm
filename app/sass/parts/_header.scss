@@ -1612,7 +1612,19 @@
   .select-cartridge__title {
     margin-bottom: 10px;
   }
-  
-  
-
+  .main-menu-open .site-header-wrapper {
+    position: sticky;
+    z-index: 13;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    bottom: 0;
+    overflow: scroll;
+  }
+  body.main-menu-open {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
 }

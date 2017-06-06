@@ -189,47 +189,6 @@ $(function() {
         headIndex: 2
     });
 
-    ///////////////////////////////////////////// watch slider /////////////////////////////////
-
-
-    $('.product-slider-top').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: false,
-        arrows: false,
-        fade: true,
-        dots: false,
-        asNavFor: '.product-slider-bottom'
-    });
-
-    $('.product-slider-bottom').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        infinite: false,
-        asNavFor: '.product-slider-top',
-        arrows: true,
-        dots: false,
-        focusOnSelect: true,
-        centerPadding: "5px",
-        responsive: [
-            {
-                breakpoint: 980,
-                settings: {
-                    slidesToShow: 3
-
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 3,
-                    arrows: false
-                }
-            }
-        ]
-    });
-
-
     //////////////////////////////////////////////////// printer select script //////////////////////
 
     $('.select-printer__content').find('.step').on('click', function(e){
@@ -498,6 +457,46 @@ $(function() {
 
     $('.custom-switch').bootstrapSwitch();
 
+
+    ///////////////////////////////////// product detail slider /////////////////////////////////////////////////
+
+    $('.product-slider-main').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: false,
+        fade: true,
+        dots: false,
+        asNavFor: '.product-slider-vertical'
+    });
+
+    $('.product-slider-vertical').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: false,
+        asNavFor: '.product-slider-main',
+        arrows: true,
+        dots: false,
+        focusOnSelect: true,
+        vertical: true,
+
+
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+
+
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+
+                }
+            }
+        ]
+    });
 
 
 

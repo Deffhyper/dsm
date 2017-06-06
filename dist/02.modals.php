@@ -6,6 +6,12 @@
 
 <div class="container">
     <div class="row">
+        <h1 class="page-title">Модальные окна</h1>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
         <div class="block-with-padding block-no-back">
             <ul class="block-with-padding">
                 <li class="li"><a href="#" data-toggle="modal" data-target="#modal-callback-1">Заказать звонок</a></li>

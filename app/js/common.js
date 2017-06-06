@@ -189,47 +189,6 @@ $(function() {
         headIndex: 2
     });
 
-    ///////////////////////////////////////////// watch slider /////////////////////////////////
-
-
-    $('.product-slider-top').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: false,
-        arrows: false,
-        fade: true,
-        dots: false,
-        asNavFor: '.product-slider-bottom'
-    });
-
-    $('.product-slider-bottom').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        infinite: false,
-        asNavFor: '.product-slider-top',
-        arrows: true,
-        dots: false,
-        focusOnSelect: true,
-        centerPadding: "5px",
-        responsive: [
-            {
-                breakpoint: 980,
-                settings: {
-                    slidesToShow: 3
-
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 3,
-                    arrows: false
-                }
-            }
-        ]
-    });
-
-
     //////////////////////////////////////////////////// printer select script //////////////////////
 
     $('.select-printer__content').find('.step').on('click', function(e){
@@ -498,6 +457,96 @@ $(function() {
 
     $('.custom-switch').bootstrapSwitch();
 
+
+    ///////////////////////////////////// product detail slider /////////////////////////////////////////////////
+
+    $('.product-slider-main').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: false,
+        fade: true,
+        dots: false,
+        asNavFor: '.product-slider-vertical'
+    });
+
+    $('.product-slider-vertical').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: false,
+        asNavFor: '.product-slider-main',
+        arrows: true,
+        dots: false,
+        focusOnSelect: true,
+        vertical: true,
+
+
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+
+
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+
+                }
+            }
+        ]
+    });
+
+
+    //////////////////////////////////////// goods amount ////////////////////////////////////////////
+
+    $('.goods-amount').on('click', function(event){
+        var $target = $(event.target);
+        var inputVal = $(this).find('.goods-amount-input').val();
+        var currentVal = Number((inputVal.replace(/шт(\.)?/g, "")).trim());
+
+        if($target.hasClass('dec') && currentVal >= 2) {
+            --currentVal;
+            $(this).find('.goods-amount-input').val(currentVal+' шт.');
+        } else if ($target.hasClass('inc')) {
+            ++currentVal;
+            $(this).find('.goods-amount-input').val(currentVal+' шт.');
+        }
+    });
+
+    $('.goods-amount-input').on('focus', function(){
+        $(this).val('');
+    });
+
+    $('.goods-amount-input').on('blur', function(){
+        var inpVal = $(this).val();
+
+        if(inpVal == 0) {
+            $(this).val('1 шт.');
+
+        } else {
+            $(this).val(inpVal+' шт.');
+        }
+    });
+
+    //// prevent not digit
+
+    $(".goods-amount-input").on('keyup keydown', function (e) {
+        // Allow: backspace, delete, tab, escape, enter and .
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                // Allow: Ctrl+A, Command+A
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+                // Allow: home, end, left, right, down, up
+            (e.keyCode >= 35 && e.keyCode <= 40)) {
+            // let it happen, don't do anything
+            return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+            e.preventDefault();
+        }
+    });
 
 
 
