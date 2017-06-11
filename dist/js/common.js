@@ -89,8 +89,35 @@ $(function() {
                     dots: false
                 }
             }
+        ]
+    });
 
 
+    $('.four-item-slider__no-dots').slick({
+        infinite: true,
+        dots: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }
         ]
     });
 
@@ -116,6 +143,42 @@ $(function() {
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1,
+                    infinite: true,
+                    arrows: false
+                }
+            }
+
+        ]
+    });
+
+    $('.six-item-slider__last-seems').slick({
+        infinite: true,
+        dots: false,
+        speed: 300,
+        slidesToShow: 6,
+        slidesToScroll: 6,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     infinite: true,
                     arrows: false
                 }
@@ -419,7 +482,7 @@ $(function() {
             });
 
             catalogSort.on("click", "li:not(.init)", function(e) {
-                e.preventDefault();
+                //e.preventDefault();
                 allOptions.removeClass('selected');
                 $(this).addClass('selected');
                 catalogSort.children('.init').html($(this).html());
@@ -430,9 +493,6 @@ $(function() {
             catalogSort.unbind('click');
             catalogSort.find('li').removeAttr('style');
         }
-
-
-
     }
 
     $(window).ready(bindJsOnFilterSelectTablet(windowWidth)).resize(function () {
@@ -492,6 +552,7 @@ $(function() {
             {
                 breakpoint: 768,
                 settings: {
+                    vertical: false
 
                 }
             }
@@ -499,5 +560,111 @@ $(function() {
     });
 
 
+    //////////////////////////////////////// goods amount ////////////////////////////////////////////
+
+    $('.goods-amount').on('click', function(event){
+        var $target = $(event.target);
+        var inputVal = $(this).find('.goods-amount-input').val();
+        var currentVal = Number((inputVal.replace(/шт(\.)?/g, "")).trim());
+
+        if($target.hasClass('dec') && currentVal >= 2) {
+            --currentVal;
+            $(this).find('.goods-amount-input').val(currentVal+' шт.');
+        } else if ($target.hasClass('inc')) {
+            ++currentVal;
+            $(this).find('.goods-amount-input').val(currentVal+' шт.');
+        }
+    });
+
+    $('.goods-amount-input').on('focus', function(){
+        $(this).val('');
+    });
+
+    $('.goods-amount-input').on('blur', function(){
+        var inpVal = $(this).val();
+
+        if(inpVal == 0) {
+            $(this).val('1 шт.');
+
+        } else {
+            $(this).val(inpVal+' шт.');
+        }
+    });
+
+    //// prevent not digit
+
+    $(".goods-amount-input").on('keyup keydown', function (e) {
+        // Allow: backspace, delete, tab, escape, enter and .
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                // Allow: Ctrl+A, Command+A
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+                // Allow: home, end, left, right, down, up
+            (e.keyCode >= 35 && e.keyCode <= 40)) {
+            // let it happen, don't do anything
+            return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+            e.preventDefault();
+        }
+    });
+
+
+    ////////////////////////////////////////////////// product  /////////////////////////////////
+
+    $('.product-navigate').find('li').on('click', function(e){
+        e.preventDefault();
+
+        if (!$(this).hasClass('active')){
+            $(this).addClass('active').siblings().removeClass('active');
+        }
+
+        console.log($(this).data('target'));
+
+        if($(this).data('target') > 0) {
+            $('.product-bottom').addClass('product-short');
+        } else {
+            $('.product-bottom').removeClass('product-short');
+        }
+        $('.product-property').children().eq($(this).data('target')).addClass('active').siblings().removeClass('active');
+
+    });
+
+    var productCharacteristicsClone = $('#productCharacteristicsClone');
+    productCharacteristicsClone.clone().addClass('copy').insertAfter('.product-description');
+
+
+    function bindJsOnProductNavMobile(windowWidth) {
+        var catalogSort = $('.product-navigate');
+        var allOptions = catalogSort.children('li:not(.init)');
+
+        if (windowWidth < 768) {
+            catalogSort.unbind('click').on("click", ".init", function(e) {
+                e.preventDefault();
+                $(this).toggleClass('open');
+                $(this).closest("ul").children('li:not(.init)').slideToggle();
+            });
+
+            catalogSort.on("click", "li:not(.init)", function(e) {
+                //e.preventDefault();
+                allOptions.removeClass('selected');
+                $(this).addClass('selected');
+                catalogSort.children('.init').html($(this).html());
+                allOptions.slideToggle();
+                catalogSort.find('.init').removeClass('open');
+            });
+        } else {
+            catalogSort.unbind('click');
+            catalogSort.find('li').removeAttr('style');
+        }
+    }
+
+    $(window).ready(bindJsOnProductNavMobile(windowWidth)).resize(function () {
+        bindJsOnProductNavMobile(window.innerWidth);
+    });
+
+
+
 
 });
+

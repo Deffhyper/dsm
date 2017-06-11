@@ -10,6 +10,13 @@
 .text-accent {
   color: $accent;
 }
+.text--red {
+  color: #fe3434 !important;
+}
+
+.text--gray {
+  color: #848ca4 !important;
+}
 .text-center {
   text-align: center;
 }
@@ -406,6 +413,17 @@ span.bs-caret {
   padding-bottom: 60px;
 }
 
+@media ($tablet) {
+  .bottom-padding {
+    padding-bottom: 40px;
+  }
+}
+@media ($mobile) {
+  .bottom-padding {
+    padding-bottom: 20px;
+  }
+}
+
 .section-title {
   font-family: $font-light;
   letter-spacing: .2px;
@@ -527,6 +545,10 @@ span.bs-caret {
   .goods-price {
     padding: 20px;
   }
+
+
+
+
 }
 
 .four-item-slider {
@@ -551,6 +573,14 @@ span.bs-caret {
     margin-top: 30px;
     margin-left: 35px;
   }
+}
+
+.four-item-slider__no-dots {
+  @extend .four-item-slider;
+}
+
+.six-item-slider__last-seems {
+  @extend .four-item-slider;
 }
 
 .six-item-slider {
@@ -672,10 +702,6 @@ span.bs-caret {
   overflow: hidden;
 }
 
-.background-gray {
-  background-color: #f2f4fa;
-}
-
 .tooltip {
   position: absolute;
   top: 50%;
@@ -763,7 +789,7 @@ span.bs-caret {
   padding: 0;
   width: 100%;
   height: 48px;
-  background-color: #fff;
+  background-color: transparent;
   @include placeholder {
     color: #b8b8c0;
     font-size: 14px;
@@ -775,6 +801,25 @@ span.bs-caret {
   display: block;
 }
 
+.custom-textarea {
+  background-color: transparent;
+  border: 2px solid #454e66;
+  width: 100%;
+  @include placeholder {
+    color: #b8b8c0;
+    font-size: 14px;
+  }
+}
+
+.custom-textarea-label {
+  margin-bottom: 10px;
+  font-size: 11px;
+  display: block;
+}
+
+.gray-form {
+  background-color: #f2f4fa;
+}
 
 
 
