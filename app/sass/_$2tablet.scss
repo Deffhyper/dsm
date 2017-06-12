@@ -107,7 +107,33 @@
     padding: 25px 0 25px;
   }
 
+  .already-registered {
+    max-width: 365px;
+    margin-left: 10px;
+  }
 
+  ///////////////////////////////////////////////// payment and delivery //////////////////////
+
+  .payment-and-delivery__block .gray-form {
+    padding: 25px 22px 6px;
+
+    h3{
+      margin: 17px 0 30px;
+    }
+
+  }
+
+  ///////////////////////////////////////// partner /////////////////////////////////////////////////
+
+  .partner__item {
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .partner__item img {
+    top: 25px;
+  }
 
 
 
