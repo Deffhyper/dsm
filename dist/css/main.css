@@ -4878,7 +4878,8 @@ body:after {
 .already-registered {
   padding: 35px;
   background-color: #f2f4fa;
-  text-align: center; }
+  text-align: center;
+  max-width: 380px; }
   .already-registered__title {
     font-family: "GothamProRegular", sans-serif;
     font-size: 17px;
