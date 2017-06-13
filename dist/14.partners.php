@@ -20,7 +20,7 @@
 
                 <p>
                     <span class="text-bold">Сайт партнера:</span>
-                    <a href="http://www.canon.ua" class="link__second-accent link-underline">http://www.canon.ua</a>
+                    <a href="http://www.canon.ua" class="link__second-accent link-underline link--accent-hover">http://www.canon.ua</a>
                 </p>
 
                 <p>
@@ -44,7 +44,7 @@
 
                 <p>
                     <span class="text-bold">Сайт партнера:</span>
-                    <a href="http://www.can,on.ua" class="link__second-accent link-underline">http://www.can,on.ua</a>
+                    <a href="http://www.can,on.ua" class="link__second-accent link-underline link--accent-hover">http://www.can,on.ua</a>
                 </p>
 
                 <p>
@@ -67,7 +67,7 @@
 
                 <p>
                     <span class="text-bold">Сайт партнера:</span>
-                    <a href="http://www.epson.ua" class="link__second-accent link-underline">http://www.epson.ua</a>
+                    <a href="http://www.epson.ua" class="link__second-accent link-underline link--accent-hover">http://www.epson.ua</a>
                 </p>
 
                 <p>
@@ -92,7 +92,7 @@
 
                 <p>
                     <span class="text-bold">Сайт партнера:</span>
-                    <a href="http://www.canon.ua" class="link__second-accent link-underline">http://www.canon.ua</a>
+                    <a href="http://www.canon.ua" class="link__second-accent link-underline link--accent-hover">http://www.canon.ua</a>
                 </p>
 
                 <p>
@@ -116,7 +116,7 @@
 
                 <p>
                     <span class="text-bold">Сайт партнера:</span>
-                    <a href="http://www.can,on.ua" class="link__second-accent link-underline">http://www.can,on.ua</a>
+                    <a href="http://www.can,on.ua" class="link__second-accent link-underline link--accent-hover">http://www.can,on.ua</a>
                 </p>
 
                 <p>
@@ -139,7 +139,7 @@
 
                 <p>
                     <span class="text-bold">Сайт партнера:</span>
-                    <a href="http://www.epson.ua" class="link__second-accent link-underline">http://www.epson.ua</a>
+                    <a href="http://www.epson.ua" class="link__second-accent link-underline link--accent-hover">http://www.epson.ua</a>
                 </p>
 
                 <p>

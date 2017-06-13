@@ -266,6 +266,11 @@
                                         Водорастворимые Чернила Epson Claria были специально разработаны компанией Epson для
                                         печати фотографий и используются в картриджах для фотопринтеров Epson, обеспечивая
                                         непревзойденную цветопередачу, насыщенные и яркие цвета.</p>
+
+                                    <p><span class="text-bold">Качество фотографий выше чем в фотолаборатории</span><br>
+                                        Водорастворимые Чернила Epson Claria были специально разработаны компанией Epson для
+                                        печати фотографий и используются в картриджах для фотопринтеров Epson, обеспечивая
+                                        непревзойденную цветопередачу, насыщенные и яркие цвета.</p>
                                 </div>
 
                                 <a href="#" class="product-description__spoiler link link__second-accent
@@ -1328,9 +1333,9 @@
             <div class="product-banner bottom-padding">
                 <a href="#">
                     <picture>
-                        <source media="(min-width: 992px)" srcset="img/jpeg_files/banner-big.jpg" sizes="100vw">
-                        <source media="(max-width: 767px)" srcset="img/jpeg_files/banner-slall.jpg" sizes="100vw">
-                        <img srcset="img/jpeg_files/banner-medium.jpg" sizes="100vw">
+<!--                        <source media="(min-width: 992px)" srcset="img/jpeg_files/banner-big.jpg" sizes="100vw">-->
+<!--                        <source media="(max-width: 767px)" srcset="img/jpeg_files/banner-slall.jpg" sizes="100vw">-->
+                        <img srcset="img/jpeg_files/banner-big.jpg" sizes="100vw">
                     </picture>
                 </a>
             </div>

@@ -179,6 +179,10 @@
     margin-right: 45px;
   }
 
+  .compare-link {
+    display: none;
+  }
+
   //////////////////////////////////////////////////////////// recovery password //////////////////////////////////
 
   .pass-recovery fieldset {
@@ -264,4 +268,78 @@
     padding-top: 30px;
   }
 
+
+
+  /////////////////////////////////// news ///////////////////////////////////////////////////////
+
+  .news .main-news-list__item {
+    max-width: 300px;
+    margin: 0 auto 15px !important;
+    display: block;
+    width: 100%;
+  }
+
+///////////////////////////////////////// news detail //////////////////////////////////////
+
+  .photo-gallery__slider--item {
+    height: 32vw;
+    max-width: 95%;
+    margin: auto !important;
+  }
+  .news-detail__middle--image {
+    height: 62vw;
+  }
+
+  .news-detail__top {
+    flex-direction: column;
+  }
+
+  .news-detail__top .left {
+    margin-bottom: 5px;
+  }
+
+  .mfp-image-holder .mfp-close {
+    top: -50px;
+    right: -20px;
+  }
+
+  .mfp-container {
+    max-width: 98%;
+  }
+  .mfp-arrow-right {
+    right: -15px;
+  }
+  .mfp-arrow-left {
+    left: -15px;
+  }
+
+  .mfp-arrow-left:after {
+    border-left: 2px solid #c9d1de;
+    border-bottom: 2px solid #c9d1de;
+  }
+
+  .mfp-figure figure {
+    background-color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+

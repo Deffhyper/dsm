@@ -720,7 +720,6 @@
                     <img src="img/jpeg_files/c-1.jpg" alt="company">
                 </div>
                 <div class="main-company__text">
-                    <div class="main-company__decor">компания</div>
                     <div class="main-company__decor--rect"></div>
                     <h3 class="main-company__text--title text-uppercase">Наша компания</h3>
 

@@ -28,7 +28,7 @@
                         <label for="r-1">Запомнить меня</label>
                     </div>
                     <div class="pull-right">
-                        <a href="#" class="link link-underline link__second-accent">Забыли пароль?</a>
+                        <a href="#" class="link link-underline link__second-accent link--accent-hover">Забыли пароль?</a>
                     </div>
 
                 </fieldset>

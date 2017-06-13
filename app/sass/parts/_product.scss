@@ -492,6 +492,10 @@
   &__text {
     overflow: hidden;
     max-height: 250px;
+    transition: .3s ease;
+    &.open {
+      max-height: 999px;
+    }
 
     p {
       margin-bottom: 25px;
@@ -1277,6 +1281,10 @@
 
   .goods-not-avaible.btn {
     width: 100%;
+  }
+
+  .product-banner {
+    display: none;
   }
 
 

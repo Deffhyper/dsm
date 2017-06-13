@@ -4,6 +4,13 @@ $(function() {
     //global scope
     var windowWidth = $(window).width();
 
+    ////////////////////////////////// mobile hovers /////////////////////////////////////
+
+
+    $(window).on('touchstart', 'a, button', function () {
+        $(this).trigger('hover');
+    });
+
 
     ////////////////////////////////// mobile footer ///////////////////////////////////////
 
@@ -662,6 +669,98 @@ $(function() {
     $(window).ready(bindJsOnProductNavMobile(windowWidth)).resize(function () {
         bindJsOnProductNavMobile(window.innerWidth);
     });
+
+
+    /////////////////////////////////////// spoiler ///////////////////////////////////////////
+
+    $('.product-description__spoiler').on('click', function(e){
+        e.preventDefault();
+        var spoilerText = $(this).prev('.product-description__text');
+        if(!spoilerText.hasClass('open')){
+            spoilerText.addClass('open');
+            $(this).text('Скрыть');
+        } else {
+            spoilerText.removeClass('open');
+            $(this).text('Читать еще');
+        }
+    });
+
+    ////////////////////////////////////////// gallery slider ///////////////////////////////////
+
+    $('.photo-gallery__slider').on('init', function(event, slick){
+        console.log("initialized");
+        $(this).magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            tLoading: 'Loading image #%curr%...',
+            mainClass: 'mfp-img-mobile',
+            gallery: {
+                enabled: true
+            },
+            image: {
+                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                titleSrc: function(item) {
+                    return false;
+                }
+            }
+        });
+    });
+
+    $('.photo-gallery__slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+
+                }
+            }
+        ]
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

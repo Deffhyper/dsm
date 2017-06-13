@@ -1,10 +1,12 @@
 <div class="left-sidebar-wrapper">
     <p class="sidebar__title">Фильтры товаров</p>
     <a href="#" class="category-mob-title">Фильтры товаров<span class="caret"></span></a>
+
     <div class="sidebar__filter">
         <form action="#">
             <fieldset class="sidebar-range">
-                <a href="#colapse-range" class="sidebar-range__title" data-toggle="collapse" aria-controls="colapse-range">
+                <a href="#colapse-range" class="sidebar-range__title" data-toggle="collapse"
+                   aria-controls="colapse-range">
                     Цена
                     <span class="caret"></span>
                 </a>
@@ -67,8 +69,9 @@
                             <label for="ch-18">brand-2</label>
                         </li>
                     </ul>
-                    <a href="#filter-brand-spoiler" class="link__accent link__accent--borderDotted link__accent--hover
-                link__accent--withCaret" data-toggle="collapse" aria-controls="filter-brand-spoiler">Смотреть еще</a>
+                    <a href="#filter-brand-spoiler" id="filter-brand-spoiler-link" class="link__accent
+                    link__accent--borderDotted link__accent--hover link__accent--withCaret" data-toggle="collapse"
+                       aria-controls="filter-brand-spoiler">Смотреть еще</a>
                 </div>
 
             </fieldset>
@@ -127,7 +130,9 @@
                 </ul>
             </fieldset>
             <fieldset class="sidebar__filter--ctrl">
-                <button type="reset" class="link__accent link__accent--borderDotted link__accent--hover">Сбросить фильтры</button>
+                <button type="reset" class="link__accent link__accent--borderDotted link__accent--hover">Сбросить
+                    фильтры
+                </button>
             </fieldset>
         </form>
     </div>
