@@ -770,6 +770,61 @@ $(function() {
     });
 
 
+    ////////////////////////////////////////////// compare ///////////////////////////////////////////////
+
+    var compareTrueWidth = 0;
+    $('.compare-items__top').find('li').each(function() {
+        compareTrueWidth += parseInt($(this).innerWidth()/1.66, 10);
+    });
+
+    $('.compare-items__top').css('width', compareTrueWidth);
+    $('.compare-items__bottom').css('width', compareTrueWidth);
+
+    $('.compare-items__wrapper').mCustomScrollbar({
+        theme:"dark",
+        horizontalScroll: true,
+        autoDraggerLength: true,
+        advanced: { updateOnContentResize: true, updateOnBrowserResize: true },
+        scrollButtons:{
+            enable: true
+        }
+    });
+
+    var arrayOfHeights = [];
+    var arrayOfSecondHeights = [];
+    var concatArrays = [];
+
+   $('.compare-items__bottom > table > tbody').children().each(function(){
+       var i = $(this).first().height();
+       arrayOfHeights.push(i);
+   });
+
+    $('.compare-ctrl__bottom > table > tbody').children().each(function(){
+       var i = $(this).first().height();
+       arrayOfSecondHeights.push(i);
+   });
+
+
+    for (var i = 0; i < arrayOfHeights.length; i++) {
+        if(arrayOfHeights[i] > arrayOfSecondHeights[i]){
+            concatArrays.push(arrayOfHeights[i]);
+        } else {
+            concatArrays.push(arrayOfSecondHeights[i]);
+        }
+    }
+
+    console.log(arrayOfHeights);
+    console.log(arrayOfSecondHeights);
+    console.log(concatArrays);
+
+
+    for( var j = 0;  j < concatArrays.length; j++ ){
+        $('.compare-ctrl__bottom').find('table').find('tbody').children().eq(j).first('td').css('height', concatArrays[j]);
+        $('.compare-items__bottom').find('table').find('tbody').children().eq(j).first('td').css('height', concatArrays[j]);
+    }
+
+
+
 
 
 

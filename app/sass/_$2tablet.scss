@@ -253,7 +253,31 @@
     width: 49%;
   }
 
+  //////////////////////////////////////////////////// compare ////////////////////////////////////////
+  .compare-items {
+    width: 66%;
+    margin-bottom: 60px;
+  }
 
+  .compare-ctrl {
+    width: 34%;
+  }
+
+  .compare {
+    min-width: 750px;
+  }
+
+  .compare-ctrl__top {
+    height: 496px;
+  }
+
+  .compare-items__top--item {
+    width: 245px;
+  }
+
+  .compare-items__bottom table tr td {
+    width: 245px;
+  }
 
 
 
