@@ -727,8 +727,46 @@ $(function() {
                 }
             }
         ]
+    });
 
 
+    /////////////////////////////////////////////////// order ////////////////////////////////////
+
+    $('.search-input-result').find('ul').mCustomScrollbar({
+        theme:"second-scroll-bar-theme",
+        setHeight: 300,
+        scrollButtons:{
+            enable:false,
+        }
+    });
+
+    $(document).on('focus', '#smart-search-input', function () {
+        $(this).val('');
+        $('#smart-search-result').addClass('show');
+        $(this).quicksearch('#smart-search-result ul li', {
+            selector: 'a',
+            delay: "300",
+            noResults: 'li#noResult'
+        });
+    });
+
+    $(document).on('blur', '#smart-search-input', function () {
+        setTimeout(function(){
+            $('#smart-search-result').removeClass('show');
+
+        }, 200);
+
+    });
+
+    $('#smart-search-result').on('click', function(e){
+        e.preventDefault();
+        var target = e.target;
+        if($(target).text() && $(target).attr('href')){
+            var targetText = $(target).text();
+            console.log(targetText);
+            $('#smart-search-input').val(String(targetText).replace(/\(+\d+\)/g, ""));
+            $('#smart-search-result').removeClass('show');
+        }
     });
 
 

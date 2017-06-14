@@ -163,12 +163,12 @@
 
                     <form action="#">
                         <fieldset>
-                            <label for="m-1" class="modal-label">Ваше имя</label>
-                            <input type="text" id="m-1" class="modal-input" placeholder="Введите свое имя">
+                            <label for="m-3" class="modal-label">Ваше имя</label>
+                            <input type="text" id="m-3" class="modal-input" placeholder="Введите свое имя">
                         </fieldset>
                         <fieldset>
-                            <label for="m-2" class="modal-label">Телефон</label>
-                            <input type="tel" id="m-2" class="modal-input tel-input" placeholder="Введите ваш номер телефона">
+                            <label for="m-4" class="modal-label">Телефон</label>
+                            <input type="tel" id="m-4" class="modal-input tel-input" placeholder="Введите ваш номер телефона">
                         </fieldset>
                         <fieldset>
                             <button type="submit" class="btn btn-round btn--accent modal-btn">Запросить обратный звонок</button>
@@ -193,19 +193,53 @@
                 <div class="modal-order callback-form-wrapper">
                     <form action="#">
                         <fieldset>
-                            <label for="m-1" class="modal-label">Ваше имя</label>
-                            <input type="text" id="m-1" class="modal-input" placeholder="Введите свое имя">
+                            <label for="m-5" class="modal-label">Ваше имя</label>
+                            <input type="text" id="m-5" class="modal-input" placeholder="Введите свое имя">
                         </fieldset>
                         <fieldset>
-                            <label for="m-2" class="modal-label">Телефон</label>
-                            <input type="tel" id="m-2" class="modal-input tel-input" placeholder="Введите ваш номер телефона">
+                            <label for="m-6" class="modal-label">Телефон</label>
+                            <input type="tel" id="m-6" class="modal-input tel-input" placeholder="Введите ваш номер телефона">
                         </fieldset>
                         <fieldset>
-                            <label for="m-2" class="modal-label">E-mail</label>
-                            <input type="email" id="m-2" class="modal-input" placeholder="Введите ваш E-mail">
+                            <label for="m-7" class="modal-label">E-mail</label>
+                            <input type="email" id="m-7" class="modal-input" placeholder="Введите ваш E-mail">
                         </fieldset>
                         <fieldset>
                             <button type="submit" class="btn btn-round btn--accent modal-btn">отправить</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal callback-4-->
+<div id="modal-fast-order" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Быстрый заказ</h4>
+                <a href="#" class="close" data-dismiss="modal"></a>
+            </div>
+            <div class="modal-body">
+                <div class="modal-order callback-form-wrapper">
+                    <form action="#">
+                        <fieldset>
+                            <label for="m-8" class="modal-label">Ваше имя</label>
+                            <input type="text" id="m-8" class="modal-input" placeholder="Введите свое имя">
+                        </fieldset>
+                        <fieldset>
+                            <label for="m-9" class="modal-label">Телефон</label>
+                            <input type="tel" id="m-9" class="modal-input tel-input" placeholder="Введите ваш номер телефона">
+                        </fieldset>
+                        <fieldset>
+                            <label for="m-10" class="modal-label">E-mail</label>
+                            <input type="email" id="m-10" class="modal-input" placeholder="Введите ваш E-mail">
+                        </fieldset>
+                        <fieldset>
+                            <button type="submit" class="btn btn-round btn--accent modal-btn">заказать</button>
                         </fieldset>
                     </form>
                 </div>

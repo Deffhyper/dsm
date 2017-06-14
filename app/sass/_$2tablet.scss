@@ -203,7 +203,55 @@
   .news-detail .text-section {
     margin-bottom: 0;
   }
+////////////////////////////////////////////////////// order /////////////////////////////////////////////
 
+  .order-table__item {
+    display: block;
+    tbody {
+      display: block;
+    }
+    tr {
+      display: block;
+      position: relative;
+      padding: 15px 15px 15px 135px;
+
+      td {
+        display: block;
+        padding: 0;
+      }
+    }
+
+  }
+
+  .order-table__item tr td:nth-child(1) {
+    width: 135px;
+    vertical-align: top;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .order-table__item tr td:nth-child(2) {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 0;
+  }
+
+  .order-table__total {
+    margin-right: 0;
+  }
+
+  .order-table__total table tr td {
+    padding: 3px 7px;
+  }
+
+  .order-form {
+    width: 49%;
+  }
+  .order-table {
+    width: 49%;
+  }
 
 
 

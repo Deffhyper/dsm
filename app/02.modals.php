@@ -17,6 +17,7 @@
                 <li class="li"><a href="#" data-toggle="modal" data-target="#modal-callback-1">Заказать звонок</a></li>
                 <li class="li"><a href="#" data-toggle="modal" data-target="#modal-callback-2">Заказать звонок ы карточке</a></li>
                 <li class="li"><a href="#" data-toggle="modal" data-target="#modal-order">Под заказ</a></li>
+                <li class="li"><a href="#" data-toggle="modal" data-target="#modal-fast-order">Быстрый заказ</a></li>
             </ul>
         </div>
     </div>

@@ -322,8 +322,63 @@
     background-color: #fff;
   }
 
+  //////////////////////////////////////////////////// order //////////////////////////////////
 
+  .order {
+    display: block;
+  }
+  .order-table {
+    width: 100%;
+  }
+  .order-form {
+    width: 100%;
+  }
+  .order-table__total {
+    float: none;
+    table {
+      margin: 0 auto 20px;
+    }
+  }
+  .order-table__item {
+    margin-bottom: 15px;
+  }
 
+  .order-form__input-inline .custom-input__wrapper {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .order-form__title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .order-form fieldset {
+    margin-bottom: 15px;
+  }
+
+  h3.order-form__title {
+    margin-top: 30px;
+  }
+
+  .order-table__item a {
+    font-size: 13px;
+  }
+
+  .order-table__item tr {
+    padding: 15px 15px 15px 110px;
+  }
+
+  .order-table__item tr td:nth-child(1) {
+    width: 90px;
+    top: 20px;
+    left: 10px;
+  }
+
+  .order-table__item .current-price a {
+    font-size: 16px;
+  }
 
 
 

@@ -192,7 +192,8 @@
                                         в аренду</a>
                                 </div>
                                 <div class="col-sm-7 no-padding">
-                                    <a href="#" class="buy-goods btn btn-round btn--gray">Быстрый заказ</a>
+                                    <a href="#" class="buy-goods btn btn-round btn--gray" data-toggle="modal"
+                                       data-target="#modal-fast-order">Быстрый заказ</a>
                                 </div>
                             </div>
                         </div>
@@ -257,19 +258,25 @@
                                     <p>Стильный фотопринтер <a href="#" class="text-bold">Epson Stylus Photo P50</a>
                                         подойдет
                                         для пользователей, которые хотят
-                                        контролировать творческий процесс создания фотографии в домашних условиях – лучше и
-                                        быстрее чем в фотолаборатории. Для создания уникальной коллекции CD и DVD дисков в
+                                        контролировать творческий процесс создания фотографии в домашних условиях –
+                                        лучше и
+                                        быстрее чем в фотолаборатории. Для создания уникальной коллекции CD и DVD дисков
+                                        в
                                         принтере <a href="#" class="text-bold">Epson Stylus Photo P50</a> предусмотрена
                                         функция печати на поверхности CD/DVD.</p>
 
                                     <p><span class="text-bold">Качество фотографий выше чем в фотолаборатории</span><br>
-                                        Водорастворимые Чернила Epson Claria были специально разработаны компанией Epson для
-                                        печати фотографий и используются в картриджах для фотопринтеров Epson, обеспечивая
+                                        Водорастворимые Чернила Epson Claria были специально разработаны компанией Epson
+                                        для
+                                        печати фотографий и используются в картриджах для фотопринтеров Epson,
+                                        обеспечивая
                                         непревзойденную цветопередачу, насыщенные и яркие цвета.</p>
 
                                     <p><span class="text-bold">Качество фотографий выше чем в фотолаборатории</span><br>
-                                        Водорастворимые Чернила Epson Claria были специально разработаны компанией Epson для
-                                        печати фотографий и используются в картриджах для фотопринтеров Epson, обеспечивая
+                                        Водорастворимые Чернила Epson Claria были специально разработаны компанией Epson
+                                        для
+                                        печати фотографий и используются в картриджах для фотопринтеров Epson,
+                                        обеспечивая
                                         непревзойденную цветопередачу, насыщенные и яркие цвета.</p>
                                 </div>
 
@@ -286,10 +293,13 @@
                                     <li class="product-reviews-list__item">
                                     <span class="product-reviews-list__item--icon"><span
                                             class="icon icon-comment"></span></span>
-                                        <span class="product-reviews-list__item--name text-bold">Олександр Чубенко</span>
+                                        <span
+                                            class="product-reviews-list__item--name text-bold">Олександр Чубенко</span>
                                         <time class="product-reviews-list__item--time">12.05.2017</time>
-                                        <p>Придбав принтер Epson Stylus Photo P50. Гарний пристрій для друку якісних світлин
-                                            та нанесення малюнку на диски. Дякую магазину за якісне обслуговування та швидку
+                                        <p>Придбав принтер Epson Stylus Photo P50. Гарний пристрій для друку якісних
+                                            світлин
+                                            та нанесення малюнку на диски. Дякую магазину за якісне обслуговування та
+                                            швидку
                                             доставку, а компанії Epson за якісну продукцію.</p>
                                     </li>
                                     <li class="product-reviews-list__item">
@@ -304,8 +314,10 @@
                                             class="icon icon-comment"></span></span>
                                         <span class="product-reviews-list__item--name text-bold">Виктор</span>
                                         <time class="product-reviews-list__item--time">12.05.2017</time>
-                                        <p>Обладал другой моделью мфу фирмы Epson. Хочу поделиться своим мнением, буквально
-                                            через год нечастого использования принтер сломался. Причина - перегнулся контакт
+                                        <p>Обладал другой моделью мфу фирмы Epson. Хочу поделиться своим мнением,
+                                            буквально
+                                            через год нечастого использования принтер сломался. Причина - перегнулся
+                                            контакт
                                             к синему картриджу,которые реализован в виде кусочка медной жилы...</p>
                                     </li>
                                 </ul>
@@ -335,7 +347,7 @@
                                         <td>Нет</td>
                                     </tr>
                                     <tr>
-                                        <td>Минимальный размер капли (pl) </td>
+                                        <td>Минимальный размер капли (pl)</td>
                                         <td>1.5</td>
                                     </tr>
                                     <tr>
@@ -345,20 +357,22 @@
                                     <tr>
                                         <td>Формат и плотность бумаги</td>
                                         <td>Плотность: 64~300 г/м2
-                                            Формат фотографий, см: 10х15, 13х18, 9х13, 13х20, 20х25, 10х18</td>
+                                            Формат фотографий, см: 10х15, 13х18, 9х13, 13х20, 20х25, 10х18
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Скорость печати</td>
                                         <td>Черно-белая печать (А4): 37 стр/мин
                                             Цветная печать (А4): 38 стр/мин
-                                            10x15 см (цветн.): 12 сек/фото</td>
+                                            10x15 см (цветн.): 12 сек/фото
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Поддержка фотопечати высокого качества</td>
                                         <td>Есть</td>
                                     </tr>
                                     <tr>
-                                        <td>Встроенный факс </td>
+                                        <td>Встроенный факс</td>
                                         <td>Нет</td>
                                     </tr>
                                     </tbody>
@@ -392,7 +406,7 @@
                                         <td>Нет</td>
                                     </tr>
                                     <tr>
-                                        <td>Минимальный размер капли (pl) </td>
+                                        <td>Минимальный размер капли (pl)</td>
                                         <td>1.5</td>
                                     </tr>
                                     <tr>
@@ -402,20 +416,22 @@
                                     <tr>
                                         <td>Формат и плотность бумаги</td>
                                         <td>Плотность: 64~300 г/м2
-                                            Формат фотографий, см: 10х15, 13х18, 9х13, 13х20, 20х25, 10х18</td>
+                                            Формат фотографий, см: 10х15, 13х18, 9х13, 13х20, 20х25, 10х18
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Скорость печати</td>
                                         <td>Черно-белая печать (А4): 37 стр/мин
                                             Цветная печать (А4): 38 стр/мин
-                                            10x15 см (цветн.): 12 сек/фото</td>
+                                            10x15 см (цветн.): 12 сек/фото
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Поддержка фотопечати высокого качества</td>
                                         <td>Есть</td>
                                     </tr>
                                     <tr>
-                                        <td>Встроенный факс </td>
+                                        <td>Встроенный факс</td>
                                         <td>Нет</td>
                                     </tr>
                                     <tr>
@@ -439,7 +455,7 @@
                                         <td>Нет</td>
                                     </tr>
                                     <tr>
-                                        <td>Минимальный размер капли (pl) </td>
+                                        <td>Минимальный размер капли (pl)</td>
                                         <td>1.5</td>
                                     </tr>
                                     <tr>
@@ -451,50 +467,50 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 no-padding right">
-                            
+
                             <div class="product-documentation">
-                                
+
                                 <p class="product-description__title">Документация</p>
 
                                 <table class="product-documentation__table">
                                     <tbody>
-                                        <tr>
-                                            <td>
+                                    <tr>
+                                        <td>
                                                 <span class="product-documentation__table--icon">
                                                     <img src="img/jpeg_files/file-pdf.png" alt="file">
                                                 </span>
-                                            </td>
-                                            <td>
-                                                <a href="#" class="link link__accent link__accent--borderDotted">
-                                                    Полное описание
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="link link__accent link__accent--borderDotted">
+                                                Полное описание
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
                                                 <span class="product-documentation__table--icon">
                                                     <img src="img/jpeg_files/file-doc.png" alt="file">
                                                 </span>
-                                            </td>
-                                            <td>
-                                                <a href="#" class="link link__accent link__accent--borderDotted">
-                                                    Инструкция по эксплуатации
+                                        </td>
+                                        <td>
+                                            <a href="#" class="link link__accent link__accent--borderDotted">
+                                                Инструкция по эксплуатации
 
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
                                                 <span class="product-documentation__table--icon">
                                                     <img src="img/jpeg_files/file-xls.png" alt="file">
                                                 </span>
-                                            </td>
-                                            <td>
-                                                <a href="#" class="link link__accent link__accent--borderDotted">
-                                                    Технические характеристики Epson Stylus Photo P50
-                                                </a>
-                                            </td>
-                                        </tr>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="link link__accent link__accent--borderDotted">
+                                                Технические характеристики Epson Stylus Photo P50
+                                            </a>
+                                        </td>
+                                    </tr>
                                     </tbody>
                                 </table>
 
@@ -509,6 +525,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <h4 class="product-description__title">Расходные материалы</h4>
+
                                         <div class="four-item-slider__no-dots">
                                             <div>
                                                 <div class="goods goods--short">
@@ -518,8 +535,10 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
-                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
+                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ
+                                                            36" цветное imagePROGRAF
+                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP
+                                                            L36</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -535,7 +554,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">121 789 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">120 438 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">120
+                                                                438 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -563,7 +583,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">17 350 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">16 800 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">16
+                                                                800 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -579,7 +600,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -595,7 +617,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -627,7 +650,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">702 670 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">698 390 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">698
+                                                                390 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -643,7 +667,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -655,7 +680,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -671,7 +697,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -687,7 +714,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -715,7 +743,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">702 670 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">698 390 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">698
+                                                                390 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -731,7 +760,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -743,7 +773,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -759,8 +790,10 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
-                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
+                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ
+                                                            36" цветное imagePROGRAF
+                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP
+                                                            L36</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -772,7 +805,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">121 789 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">120 438 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">120
+                                                                438 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -801,7 +835,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">17 350 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">16 800 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">16
+                                                                800 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -818,7 +853,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -830,7 +866,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -859,7 +896,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">702 670 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">698 390 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">698
+                                                                390 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -882,6 +920,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <h4 class="product-description__title">Опции</h4>
+
                                         <div class="four-item-slider__no-dots">
                                             <div>
                                                 <div class="goods goods--short">
@@ -891,8 +930,10 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
-                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
+                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ
+                                                            36" цветное imagePROGRAF
+                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP
+                                                            L36</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -908,7 +949,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">121 789 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">120 438 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">120
+                                                                438 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -936,7 +978,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">17 350 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">16 800 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">16
+                                                                800 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -952,7 +995,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -968,7 +1012,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1000,7 +1045,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">702 670 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">698 390 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">698
+                                                                390 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1016,7 +1062,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -1028,7 +1075,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1044,7 +1092,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -1060,7 +1109,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1088,7 +1138,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">702 670 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">698 390 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">698
+                                                                390 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1104,7 +1155,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -1116,7 +1168,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1132,8 +1185,10 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
-                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
+                                                        <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ
+                                                            36" цветное imagePROGRAF
+                                                            iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP
+                                                            L36</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -1145,7 +1200,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">121 789 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">120 438 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">120
+                                                                438 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1174,7 +1230,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">17 350 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">16 800 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">16
+                                                                800 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1191,7 +1248,8 @@
                                                         </a>
                                                     </div>
                                                     <div class="goods-title">
-                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                                        <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"(
+                                                            А0+)</a>
                                                     </div>
                                                     <div class="goods-prop">
                                                         <ul>
@@ -1203,7 +1261,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">41 700 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">40
+                                                                200 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1232,7 +1291,8 @@
                                                     </div>
                                                     <div class="goods-price">
                                                         <span class="old-price">702 670 грн</span>
-                                                        <span class="current-price text-bold text-accent"><a href="#">698 390 грн</a></span>
+                                                        <span class="current-price text-bold text-accent"><a href="#">698
+                                                                390 грн</a></span>
 
                                                         <div class="goods-price__button">
                                                             <a href="#" class="btn btn-link btn-round btn--blue">Подробнее</a>
@@ -1252,15 +1312,19 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-12 no-padding left">
                             <div class="product-reviews">
-                                <p class="product-description__title">Отзывы <span class="product-reviews__label">23</span></p>
+                                <p class="product-description__title">Отзывы <span
+                                        class="product-reviews__label">23</span></p>
                                 <ul class="product-reviews-list">
                                     <li class="product-reviews-list__item">
                                         <span class="product-reviews-list__item--icon"><span
                                                 class="icon icon-comment"></span></span>
-                                        <span class="product-reviews-list__item--name text-bold">Олександр Чубенко</span>
+                                        <span
+                                            class="product-reviews-list__item--name text-bold">Олександр Чубенко</span>
                                         <time class="product-reviews-list__item--time">12.05.2017</time>
-                                        <p>Придбав принтер Epson Stylus Photo P50. Гарний пристрій для друку якісних світлин
-                                            та нанесення малюнку на диски. Дякую магазину за якісне обслуговування та швидку
+                                        <p>Придбав принтер Epson Stylus Photo P50. Гарний пристрій для друку якісних
+                                            світлин
+                                            та нанесення малюнку на диски. Дякую магазину за якісне обслуговування та
+                                            швидку
                                             доставку, а компанії Epson за якісну продукцію.</p>
                                     </li>
                                     <li class="product-reviews-list__item">
@@ -1275,8 +1339,10 @@
                                                 class="icon icon-comment"></span></span>
                                         <span class="product-reviews-list__item--name text-bold">Виктор</span>
                                         <time class="product-reviews-list__item--time">12.05.2017</time>
-                                        <p>Обладал другой моделью мфу фирмы Epson. Хочу поделиться своим мнением, буквально
-                                            через год нечастого использования принтер сломался. Причина - перегнулся контакт
+                                        <p>Обладал другой моделью мфу фирмы Epson. Хочу поделиться своим мнением,
+                                            буквально
+                                            через год нечастого использования принтер сломался. Причина - перегнулся
+                                            контакт
                                             к синему картриджу,которые реализован в виде кусочка медной жилы...</p>
                                     </li>
                                     <li class="product-reviews-list__item">
@@ -1291,34 +1357,42 @@
                                                 class="icon icon-comment"></span></span>
                                         <span class="product-reviews-list__item--name text-bold">Виктор</span>
                                         <time class="product-reviews-list__item--time">12.05.2017</time>
-                                        <p>Обладал другой моделью мфу фирмы Epson. Хочу поделиться своим мнением, буквально
-                                            через год нечастого использования принтер сломался. Причина - перегнулся контакт
+                                        <p>Обладал другой моделью мфу фирмы Epson. Хочу поделиться своим мнением,
+                                            буквально
+                                            через год нечастого использования принтер сломался. Причина - перегнулся
+                                            контакт
                                             к синему картриджу,которые реализован в виде кусочка медной жилы...</p>
                                     </li>
                                 </ul>
                                 <div class="catalog__btn">
-                                    <a href="#" class="btn btn--gray btn-round">еще <span class="sprite-inline sprite-spinner"></span></a>
+                                    <a href="#" class="btn btn--gray btn-round">еще <span
+                                            class="sprite-inline sprite-spinner"></span></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 no-padding right">
                             <div class="product-reviews-form gray-form">
                                 <p class="product-description__title">Оставить свой отзыв</p>
+
                                 <form action="#">
                                     <fieldset>
                                         <label for="gf-1" class="custom-input-label">Ваше имя</label>
-                                        <input type="text" id="gf-1" class="custom-input" placeholder="Введите ваше имя">
+                                        <input type="text" id="gf-1" class="custom-input"
+                                               placeholder="Введите ваше имя">
                                     </fieldset>
                                     <fieldset>
                                         <label for="gf-2" class="custom-input-label">E-mail</label>
-                                        <input type="email" id="gf-2" class="custom-input" placeholder="Введите e-mail адрес">
+                                        <input type="email" id="gf-2" class="custom-input"
+                                               placeholder="Введите e-mail адрес">
                                     </fieldset>
                                     <fieldset>
                                         <label for="gf-3" class="custom-textarea-label">Ваш отзыв</label>
-                                        <textarea name="" id="gf-3" class="custom-textarea" cols="30" rows="6" placeholder="Напишите свой отзыв"></textarea>
+                                        <textarea name="" id="gf-3" class="custom-textarea" cols="30" rows="6"
+                                                  placeholder="Напишите свой отзыв"></textarea>
                                     </fieldset>
 
-                                    <button type="submit" class="btn btn-link btn-round btn--blue">Оставить отзыв</button>
+                                    <button type="submit" class="btn btn-link btn-round btn--blue">Оставить отзыв
+                                    </button>
                                 </form>
                             </div>
 
@@ -1333,8 +1407,8 @@
             <div class="product-banner bottom-padding">
                 <a href="#">
                     <picture>
-<!--                        <source media="(min-width: 992px)" srcset="img/jpeg_files/banner-big.jpg" sizes="100vw">-->
-<!--                        <source media="(max-width: 767px)" srcset="img/jpeg_files/banner-slall.jpg" sizes="100vw">-->
+                        <!--                        <source media="(min-width: 992px)" srcset="img/jpeg_files/banner-big.jpg" sizes="100vw">-->
+                        <!--                        <source media="(max-width: 767px)" srcset="img/jpeg_files/banner-slall.jpg" sizes="100vw">-->
                         <img srcset="img/jpeg_files/banner-big.jpg" sizes="100vw">
                     </picture>
                 </a>
@@ -1346,6 +1420,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="section-title text-uppercase">С этим товаром рекомендуем</h3>
+
                 <div class="four-item-slider__no-dots">
                     <div>
                         <div class="goods goods--short">
@@ -1355,7 +1430,8 @@
                                 </a>
                             </div>
                             <div class="goods-title">
-                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
+                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное
+                                    imagePROGRAF
                                     iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
                             </div>
                             <div class="goods-prop">
@@ -1596,7 +1672,8 @@
                                 </a>
                             </div>
                             <div class="goods-title">
-                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
+                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное
+                                    imagePROGRAF
                                     iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
                             </div>
                             <div class="goods-prop">
@@ -1713,6 +1790,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="section-title text-uppercase">Похожие товары</h3>
+
                 <div class="four-item-slider__no-dots">
                     <div>
                         <div class="goods goods--short">
@@ -1722,7 +1800,8 @@
                                 </a>
                             </div>
                             <div class="goods-title">
-                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
+                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное
+                                    imagePROGRAF
                                     iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
                             </div>
                             <div class="goods-prop">
@@ -1885,7 +1964,7 @@
                                     </li>
                                     <li>
                                         <span>Наличие:</span>
-                                        <span >нет в наличии</span>
+                                        <span>нет в наличии</span>
                                     </li>
                                 </ul>
                             </div>
@@ -1963,7 +2042,8 @@
                                 </a>
                             </div>
                             <div class="goods-title">
-                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
+                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное
+                                    imagePROGRAF
                                     iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
                             </div>
                             <div class="goods-prop">
@@ -2080,6 +2160,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="section-title text-uppercase">Последние просмотренные</h3>
+
                 <div class="six-item-slider__last-seems">
                     <div>
                         <div class="goods goods__last-seems">
@@ -2089,7 +2170,8 @@
                                 </a>
                             </div>
                             <div class="goods-title">
-                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
+                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное
+                                    imagePROGRAF
                                     iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
                             </div>
 
@@ -2219,7 +2301,8 @@
                                 </a>
                             </div>
                             <div class="goods-title">
-                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное imagePROGRAF
+                                <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное
+                                    imagePROGRAF
                                     iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
                             </div>
                             <div class="goods-price">
@@ -2248,11 +2331,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
 
 
 </main>
