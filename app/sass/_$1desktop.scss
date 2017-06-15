@@ -123,6 +123,19 @@
     max-width: 227px;
   }
 
+  ////////////////////////////////////////////////////////template order ////////////////////////////
+
+  .template-orders__list li {
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+  }
+  .template-orders__list li:nth-child(4n+4) {
+    margin-right: 2%;
+  }
+  .template-orders__list li:nth-child(3n+3) {
+    margin-right: 0;
+  }
 
 
 

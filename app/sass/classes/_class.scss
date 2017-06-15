@@ -441,13 +441,23 @@ span.bs-caret {
   padding-bottom: 60px;
 }
 
+.bottom-padding-md {
+  padding-bottom: 30px;
+}
+
 @media ($tablet) {
   .bottom-padding {
     padding-bottom: 40px;
   }
+  .bottom-padding-md {
+    padding-bottom: 20px;
+  }
 }
 @media ($mobile) {
   .bottom-padding {
+    padding-bottom: 20px;
+  }
+  .bottom-padding-md {
     padding-bottom: 20px;
   }
 }
@@ -963,7 +973,12 @@ span.bs-caret {
   }
 }
 
-
+.red-marker {
+  background-color: transparent;
+  display: inline;
+  color: red;
+  font-size: 14px;
+}
 
 
 

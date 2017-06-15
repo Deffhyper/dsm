@@ -436,6 +436,49 @@
     margin-bottom: 40px;
   }
 
+  ////////////////////////////////////////////////// template orders /////////////////////
+
+  .template-orders__list li {
+    float: none;
+    width: 100%;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin-left: auto;
+  }
+
+  .template-orders__form {
+    padding: 20px 15px 25px;
+  }
+
+  .template-orders {
+    margin-bottom: 60px;
+  }
+
+  .template-orders__form--title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .template-orders__form--subtitle {
+    margin-bottom: 10px;
+  }
+
+  .template-orders__form--wrapper fieldset {
+    margin-bottom: 17px;
+  }
+
+  .template-orders__list {
+    float: none;
+    margin-bottom: 0;
+  }
+
+  ////////////////////////////////////////////////////// service subcategory /////////////////////
+
+  .sub-category.service-subcategory .sub-category__item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 
 
 

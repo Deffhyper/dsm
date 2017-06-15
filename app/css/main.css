@@ -691,12 +691,19 @@ span.bs-caret {
 .bottom-padding {
   padding-bottom: 60px; }
 
+.bottom-padding-md {
+  padding-bottom: 30px; }
+
 @media (max-width: 991px) {
   .bottom-padding {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .bottom-padding-md {
+    padding-bottom: 20px; } }
 
 @media (max-width: 767px) {
   .bottom-padding {
+    padding-bottom: 20px; }
+  .bottom-padding-md {
     padding-bottom: 20px; } }
 
 .section-title {
@@ -1110,6 +1117,12 @@ span.bs-caret {
       position: absolute;
       top: 7px;
       left: 7px; }
+
+.red-marker {
+  background-color: transparent;
+  display: inline;
+  color: red;
+  font-size: 14px; }
 
 body:after {
   content: '';
@@ -4542,10 +4555,12 @@ body:after {
     font-family: "GothamProRegular", sans-serif; }
   .text-section img[align="left"] {
     margin-right: 30px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-top: 6px; }
   .text-section img[align="right"] {
     margin-left: 30px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-top: 6px; }
   .text-section p {
     margin-bottom: 25px; }
   .text-section ol {
@@ -5640,6 +5655,116 @@ ul.mCustomScrollbar._mCS_3 {
     position: relative;
     left: 0; }
 
+.template-orders {
+  margin-bottom: 100px; }
+  .template-orders__text {
+    margin-bottom: 35px; }
+  .template-orders__list {
+    float: left;
+    margin-bottom: 25px;
+    width: 100%; }
+    .template-orders__list li {
+      float: left;
+      width: 23%;
+      margin-right: 2.66%;
+      text-align: center;
+      margin-bottom: 33px; }
+      .template-orders__list li:nth-child(4n+4) {
+        margin-right: 0; }
+      .template-orders__list li a {
+        display: block;
+        border: 1px solid #e8edf5;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        height: 310px; }
+        .template-orders__list li a:hover {
+          border-color: #f1724f;
+          color: #f1724f; }
+          .template-orders__list li a:hover .text-bold {
+            text-decoration: underline; }
+        .template-orders__list li a .img {
+          display: block;
+          position: relative;
+          height: 220px;
+          width: 100%; }
+          .template-orders__list li a .img img {
+            max-width: 96%;
+            max-height: 96%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%); }
+        .template-orders__list li a .text-bold {
+          display: inline-block;
+          max-height: 75px;
+          overflow: hidden;
+          padding: 0 30px; }
+
+.template-orders__form {
+  padding: 45px;
+  text-align: center; }
+  .template-orders__form--title {
+    font-size: 24px;
+    max-width: 600px;
+    margin: 0 auto 15px; }
+  .template-orders__form--subtitle {
+    color: #666775;
+    margin: 0 auto 35px;
+    max-width: 600px; }
+  .template-orders__form--wrapper {
+    max-width: 395px;
+    margin: auto;
+    text-align: left; }
+    .template-orders__form--wrapper fieldset {
+      margin-bottom: 22px; }
+    .template-orders__form--wrapper .btn {
+      width: 285px;
+      display: block;
+      margin: 25px auto 0; }
+
+.sub-category.service-subcategory {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0;
+  margin-bottom: 10px; }
+  .sub-category.service-subcategory .sub-category__item {
+    width: 31%;
+    padding-left: 25px;
+    vertical-align: top;
+    margin-right: 0;
+    margin-bottom: 24px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 1px solid #e8edf5;
+    line-height: 1.6; }
+    .sub-category.service-subcategory .sub-category__item:before {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-color: #2c2f7c;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      left: -8px; }
+    .sub-category.service-subcategory .sub-category__item a {
+      border-bottom: 1px solid transparent; }
+      .sub-category.service-subcategory .sub-category__item a:hover {
+        border-bottom-color: #fbdcd3; }
+
 @media (min-width: 1440px) {
   .top-slider-bg__item {
     background-size: cover; } }
@@ -5732,7 +5857,15 @@ ul.mCustomScrollbar._mCS_3 {
     width: 100%; }
   .photo-gallery__slider--item {
     height: 159px;
-    max-width: 227px; } }
+    max-width: 227px; }
+  .template-orders__list li {
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 20px; }
+  .template-orders__list li:nth-child(4n+4) {
+    margin-right: 2%; }
+  .template-orders__list li:nth-child(3n+3) {
+    margin-right: 0; } }
 
 @media (max-width: 991px) {
   a, button {
@@ -5906,7 +6039,12 @@ ul.mCustomScrollbar._mCS_3 {
     padding-bottom: 5px; }
   .contact-page__maps--form {
     right: -10px;
-    width: 44%; } }
+    width: 44%; }
+  .template-orders__list li a .img img {
+    max-width: 190px;
+    max-height: 180px; }
+  .sub-category.service-subcategory .sub-category__item {
+    width: 48%; } }
 
 @media (max-width: 767px) {
   h2 {
@@ -6167,4 +6305,28 @@ ul.mCustomScrollbar._mCS_3 {
     height: auto;
     overflow: visible;
     background-color: #e0e4ef;
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  .template-orders__list li {
+    float: none;
+    width: 100%;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin-left: auto; }
+  .template-orders__form {
+    padding: 20px 15px 25px; }
+  .template-orders {
+    margin-bottom: 60px; }
+  .template-orders__form--title {
+    font-size: 20px;
+    margin-bottom: 10px; }
+  .template-orders__form--subtitle {
+    margin-bottom: 10px; }
+  .template-orders__form--wrapper fieldset {
+    margin-bottom: 17px; }
+  .template-orders__list {
+    float: none;
+    margin-bottom: 0; }
+  .sub-category.service-subcategory .sub-category__item {
+    width: 100%;
+    margin-bottom: 15px; } }

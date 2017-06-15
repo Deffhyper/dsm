@@ -47,11 +47,13 @@
   img[align="left"] {
     margin-right: 30px;
     margin-bottom: 30px;
+    margin-top: 6px;
   }
 
   img[align="right"] {
     margin-left: 30px;
     margin-bottom: 30px;
+    margin-top: 6px;
   }
   p {
     margin-bottom: 25px;
@@ -1526,9 +1528,143 @@ ul.mCustomScrollbar._mCS_3 {
 }
 
 
+/////////////////////////////////////////////////////// template orders //////////////////////////////
+
+.template-orders {
+  margin-bottom: 100px;
+
+  &__text {
+    margin-bottom: 35px;
+  }
+
+  &__list {
+    float: left;
+    margin-bottom: 25px;
+    width: 100%;
+
+    li {
+      float: left;
+      width: 23%;
+      margin-right: 2.66%;
+      text-align: center;
+      margin-bottom: 33px;
+
+      &:nth-child(4n+4){
+        margin-right: 0;
+      }
+      a {
+        display: block;
+        border: 1px solid #e8edf5;
+        transition: .3s ease;
+        height: 310px;
+        &:hover {
+          border-color: $accent;
+          color: $accent;
+          .text-bold {
+            text-decoration: underline;
+          }
+        }
+
+        .img {
+          display: block;
+          position: relative;
+          height: 220px;
+          width: 100%;
+          img {
+            max-width: 96%;
+            max-height: 96%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        .text-bold {
+          display: inline-block;
+          max-height: 75px;
+          overflow: hidden;
+          padding: 0 30px;
+
+        }
+      }
+    }
+  }
+}
+
+.template-orders__form {
+  padding: 45px;
+  text-align: center;
+
+  &--title {
+    font-size: 24px;
+    max-width: 600px;
+    margin:0 auto 15px;
+  }
+
+  &--subtitle {
+    color: #666775;
+    margin:0 auto 35px;
+    max-width: 600px;
+
+  }
+
+  &--wrapper {
+    max-width: 395px;
+    margin: auto;
+    text-align: left;
+    fieldset {
+      margin-bottom: 22px;
+    }
+    .btn {
+      width: 285px;
+      display: block;
+      margin: 25px auto 0;
+    }
+  }
+}
 
 
+///////////////////////////////////////////////// service sub category //////////////////////////////
 
 
+.sub-category.service-subcategory{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 0;
+  margin-bottom: 10px;
+
+  .sub-category__item {
+    width: 31%;
+    padding-left: 25px;
+    vertical-align: top;
+    margin-right: 0;
+    margin-bottom: 24px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 1px solid #e8edf5;
+    line-height: 1.6;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-color: $second-accent;
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      left: -8px;
+    }
+    a {
+      border-bottom: 1px solid transparent;
+      &:hover {
+        border-bottom-color: #fbdcd3;
+      }
+    }
+  }
+
+}
 
 
