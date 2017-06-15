@@ -13,6 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-envelope:before {
+  content: "\e911";
+}
+.icon-phone-call:before {
+  content: "\e912";
+}
+.icon-picker:before {
+  content: "\e913";
+}
+.icon-refresh2:before {
+  content: "\e914";
+}
 .icon-twitter:before {
   content: "\e910";
 }

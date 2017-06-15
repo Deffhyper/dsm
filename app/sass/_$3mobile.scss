@@ -386,10 +386,55 @@
     display: none;
   }
 
+  ////////////////////////////////////////////////////////// contacts //////////////////////////
 
+  .office-contacts__list li:not(:nth-child(2n+2)) {
+    margin-right: 0;
+  }
 
+  .office-contacts__list li {
+    min-height: inherit;
+    padding-bottom: 25px;
+    width: 100%;
+    margin: 0;
+  }
 
+  .office-contacts .icon {
+    left: 12px;
+  }
 
+  .office-contacts .link__accent {
+    display: block;
+  }
+
+  .contact-page__maps--navigate {
+    display: none;
+  }
+
+  .contact-page__office {
+    float: none;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .map-tabs {
+    display: none;
+  }
+
+  .contact-page__maps--form {
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .contact-page__maps--form .gray-form {
+    padding: 35px 20px;
+    height: auto;
+    overflow: visible;
+    background-color: #e0e4ef;
+    margin-bottom: 40px;
+  }
 
 
 

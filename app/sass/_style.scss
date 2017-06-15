@@ -1369,6 +1369,162 @@ ul.mCustomScrollbar._mCS_3 {
 
 }
 
+/////////////////////////////////////////////////////// contact-page ///////////////////////////////////////////////
+
+.contact-page {
+
+  &__office {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.office-contacts {
+  float: left;
+  width: 32%;
+  &:not(:last-child){
+    margin-right: 2%;
+  }
+  
+  .icon {
+    color: $second-accent;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+
+  .icon-picker {
+    font-size: 32px;
+  }
+  .icon-phone-call {
+    font-size: 32px;
+  }
+  .icon-envelope {
+    font-size: 26px;
+  }
+  .icon-clock {
+    font-size: 38px;
+  }
+  .icon-tools {
+    font-size: 33px;
+  }
+
+  &__title {
+    border-bottom: 2px solid $accent;
+    margin-bottom: 25px;
+  }
+  
+  &__list {
+    li {
+      position: relative;
+      padding-left: 78px;
+      min-height: 95px;
+      padding-bottom: 20px;
+      padding-right: 24px;
+
+    }
+  }
+
+}
+
+.contact-page__maps {
+
+  .container {
+    position: relative;
+  }
+
+  &--navigate {
+    text-align: center;
+    ul{
+      display: inline-block;
+      vertical-align: top;
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        padding-bottom: 30px;
+        &:not(:last-child){
+          margin-right: 10px;
+        }
+        &.active {
+          a {
+            background-color: $second-accent;
+            color: #fff;
+            position: relative;
+            &:after {
+              content: '';
+              display: inline-block;
+              width: 0;
+              height: 0;
+              border-left: 7px solid transparent;
+              border-right: 7px solid transparent;
+              border-top: 7px solid $second-accent;
+              position: absolute;
+              left: 50%;
+              bottom: -7px;
+              transform: translateX(-50%);
+            }
+          }
+        }
+        a {
+          display: block;
+          padding: 10px 20px;
+          border: 1px solid #e8edf5;
+          border-radius: 30px;
+          transition: none;
+          width: 185px;
+        }
+      }
+    }
+  }
+
+  &--form {
+    width: 390px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    .gray-form {
+      padding: 60px 45px;
+      height: 600px;
+      overflow: hidden;
+      background-color: #e0e4ef;
+      fieldset {
+        margin-bottom: 25px;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.gray-form__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-google-map {
+  height: 600px;
+  width: 100%;
+
+
+}
+
+.map-tabs__item {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  width: 100%;
+  &.active {
+    position: relative;
+    left: 0;
+  }
+}
+
 
 
 

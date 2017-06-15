@@ -279,6 +279,41 @@
     width: 245px;
   }
 
+  //////////////////////////////////////////////////// contacts ///////////////////////////////////////////
+
+  .office-contacts:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .office-contacts {
+    float: none;
+    width: 100%;
+  }
+
+  .office-contacts__list li {
+    padding-left: 70px;
+    min-height: 100px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    width: 48%;
+    margin: 0 -2px;
+    display: inline-block;
+    vertical-align: top;
+    &:not(:nth-child(2n+2)){
+      margin-right: 4%;
+    }
+  }
+
+  .office-contacts__title {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+
+  .contact-page__maps--form {
+    right: -10px;
+    width: 44%;
+  }
+
 
 
 
