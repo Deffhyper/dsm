@@ -314,6 +314,8 @@
     </div>
 </div>
 
+<!--svn is great -->
+
 <?php include_once "parts/footer.php" ?>
 </body>
 </html>
