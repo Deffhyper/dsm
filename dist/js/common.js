@@ -847,6 +847,28 @@ $(function() {
         }
     });
 
+    //////////////////////////////////////////// lk tabs /////////////////////////////////////////////////
+
+    $('.lk-cart-block__nav').find('li').on('click', function(e){
+        e.preventDefault();
+        if(!$(this).hasClass('active')){
+            $(this).addClass('active').siblings().removeClass('active');
+            $('.lk-cart-table').eq($(this).index()).addClass('active').siblings().removeClass('active');
+
+        }
+    });
+
+    $(document).on('click', '.delete-item', function(e){
+        e.preventDefault();
+        $(this).closest('.lk-cart-table__body--item').remove();
+    });
+
+
+    $('.lk-navigate__mob').on('click', function(e){
+        e.preventDefault();
+        $(this).toggleClass('rotate');
+        $(this).next('.lk-navigate').slideToggle();
+    });
 
 
 

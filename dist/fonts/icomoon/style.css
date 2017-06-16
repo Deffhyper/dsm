@@ -13,6 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-history:before {
+  content: "\e915";
+}
+.icon-list:before {
+  content: "\e916";
+}
 .icon-envelope:before {
   content: "\e911";
 }

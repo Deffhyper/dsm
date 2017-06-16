@@ -247,6 +247,14 @@ span.bs-caret {
   }
 }
 
+.btn-with-accent-border {
+  border-bottom: 2px solid $accent;
+  transition: .3s ease;
+  &:hover {
+    border-bottom-color: transparent;
+  }
+}
+
 .btn.btn-with-blue-border {
   border: 2px solid $second-accent;
   //padding-top: 13px;
