@@ -6028,6 +6028,9 @@ ul.mCustomScrollbar._mCS_3 {
     margin-bottom: 27px;
     display: inline-block; }
 
+.lk-order-list {
+  margin-bottom: 100px; }
+
 .lk-order-item {
   border: 1px solid #e8edf5; }
   .lk-order-item__header {
@@ -6046,8 +6049,16 @@ ul.mCustomScrollbar._mCS_3 {
       vertical-align: middle; }
   .lk-order-item__content {
     padding: 20px 28px; }
-    .lk-order-item__content--item .lk-order-title {
+    .lk-order-item__content--left .lk-order-title {
       margin-bottom: 5px; }
+    .lk-order-item__content--right .lk-order-title {
+      margin-bottom: 5px; }
+    .lk-order-item__content--bottom .lk-order-title {
+      margin-bottom: 15px; }
+    .lk-order-item__content--bottom .btn {
+      margin-right: 20px; }
+      .lk-order-item__content--bottom .btn.btn--accent {
+        width: 225px; }
     .lk-order-item__content--list {
       line-height: 2;
       margin-bottom: 15px; }
@@ -6202,9 +6213,7 @@ ul.mCustomScrollbar._mCS_3 {
   .lk-cart-table__body--item .goods-amount {
     max-width: 130px; }
   .cart-total-item .text-accent {
-    font-size: 18px; }
-  .lk-navigate {
-    display: none; } }
+    font-size: 18px; } }
 
 @media (max-width: 991px) {
   a, button {
@@ -6798,4 +6807,31 @@ ul.mCustomScrollbar._mCS_3 {
   .lk-cart-table__body {
     margin-bottom: 15px; }
   .lk-cart-table__head {
-    display: none; } }
+    display: none; }
+  .lk-navigate {
+    display: none; }
+  .lk-left {
+    margin-bottom: 25px; }
+  .lk-content__title {
+    font-size: 20px; }
+  .lk-order-item__header > *,
+  .lk-order-item__header {
+    display: block; }
+  .lk-order-item__header {
+    padding: 15px 20px 20px; }
+  .lk-order-item__content {
+    padding: 20px; }
+  .lk-order-item__tel {
+    display: block; }
+  .lk-order-title {
+    font-size: 14px; }
+  .lk-order-item__content--bottom .btn.btn--accent,
+  .lk-order-item__content--bottom .btn {
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block; }
+  .lk-order-item__content--bottom .btn.btn-link {
+    max-width: 132px; }
+  .lk-order-list {
+    margin-bottom: 60px; } }

@@ -870,6 +870,12 @@ $(function() {
         $(this).next('.lk-navigate').slideToggle();
     });
 
+    $(window).on('resize', function(){
+        if(innerWidth > 768) {
+            $('.lk-navigate').removeAttr('style');
+        }
+    });
+
 
 
 

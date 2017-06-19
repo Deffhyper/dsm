@@ -2021,7 +2021,7 @@ ul.mCustomScrollbar._mCS_3 {
 }
 
 .lk-order-list {
-
+  margin-bottom: 100px;
 }
 
 .lk-order-item {
@@ -2041,9 +2041,26 @@ ul.mCustomScrollbar._mCS_3 {
 
     padding: 20px 28px;
 
-    &--item {
+    &--left {
       .lk-order-title {
         margin-bottom: 5px;
+      }
+    }
+    &--right {
+      .lk-order-title {
+        margin-bottom: 5px;
+      }
+    }
+    &--bottom {
+      .lk-order-title {
+        margin-bottom: 15px;
+      }
+      .btn {
+        margin-right: 20px;
+
+        &.btn--accent {
+          width: 225px;
+        }
       }
     }
     
