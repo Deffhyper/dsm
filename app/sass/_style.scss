@@ -2017,13 +2017,54 @@ ul.mCustomScrollbar._mCS_3 {
     font-size: 20px;
     margin-bottom: 27px;
     display: inline-block;
+  }
+}
 
+.lk-order-list {
+
+}
+
+.lk-order-item {
+  border: 1px solid #e8edf5;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f4fa;
+    padding: 22px 25px 17px;
+    &>* {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  
+  &__content {
+
+    padding: 20px 28px;
+
+    &--item {
+      .lk-order-title {
+        margin-bottom: 5px;
+      }
+    }
+    
+    &--list {
+      line-height: 2;
+      margin-bottom: 15px;
+
+      li {
+        span:first-child {
+          color: #777882;
+
+        }
+      } 
+    }
   }
 
 }
 
-
-
+.lk-order-title {
+  font-size: 16px;
+}
 
 
 

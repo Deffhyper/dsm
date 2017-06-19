@@ -366,6 +366,11 @@ textarea:focus:-ms-input-placeholder {
 
 .link__red {
   color: #fe3434; }
+  .link__red.link-underline {
+    text-decoration: underline;
+    border-bottom: 0; }
+  .link__red:hover {
+    text-decoration: none; }
 
 .link-underline {
   display: inline-block;
@@ -6022,6 +6027,35 @@ ul.mCustomScrollbar._mCS_3 {
     font-size: 20px;
     margin-bottom: 27px;
     display: inline-block; }
+
+.lk-order-item {
+  border: 1px solid #e8edf5; }
+  .lk-order-item__header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #f2f4fa;
+    padding: 22px 25px 17px; }
+    .lk-order-item__header > * {
+      display: inline-block;
+      vertical-align: middle; }
+  .lk-order-item__content {
+    padding: 20px 28px; }
+    .lk-order-item__content--item .lk-order-title {
+      margin-bottom: 5px; }
+    .lk-order-item__content--list {
+      line-height: 2;
+      margin-bottom: 15px; }
+      .lk-order-item__content--list li span:first-child {
+        color: #777882; }
+
+.lk-order-title {
+  font-size: 16px; }
 
 @media (min-width: 1440px) {
   .top-slider-bg__item {

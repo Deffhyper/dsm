@@ -34,6 +34,13 @@
 
 .link__red {
   color: #fe3434;
+  &.link-underline {
+    text-decoration: underline;
+    border-bottom: 0;
+  }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .link-underline {
