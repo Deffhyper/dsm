@@ -157,7 +157,7 @@
 <section class="block-with-padding block-no-back">
     <div class="container">
         <div class="row">
-            <h1 class="section-title text-uppercase">Акционные предложения</h1>
+            <h1 class="section-title slider-title text-uppercase">Акционные предложения</h1>
             <p class="section-decor">Скидки</p>
             <div class="four-item-slider">
                 <div>

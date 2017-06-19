@@ -86,7 +86,10 @@
       margin-bottom: 10px;
       &:before {
         content: "";
-        @include sprite($ul-label);
+        background: url("../img/svg-icon/l.svg") no-repeat center center;
+        background-size: contain;
+        width: 9px;
+        height: 8px;
         position: absolute;
         top: 7px;
         left: 5px;
@@ -450,7 +453,8 @@
   display: none;
 
   &:checked + label:before {
-    background: #fff url("../img/png_icons/check.png") no-repeat center center;
+    background: #fff url("../img/svg-icon/check2.svg") no-repeat center center;
+    background-size: contain;
   }
 
   &+label {
@@ -603,9 +607,13 @@
     .btn {
       width: 185px;
       .sprite-spinner {
-        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        background: url("../img/svg-icon/refresh2.svg") no-repeat center center;
+        background-size: cover;
+        margin-left: 2px;
         position: relative;
-        top: 1px;
+        top: 8px;
         animation: spin 15s linear infinite;
       }
     }
@@ -918,6 +926,7 @@
   box-sizing: border-box;
   max-width: 900px;
   margin: auto;
+  max-height: 70%;
 }
 
 .mfp-arrow-left:after {
@@ -1809,6 +1818,7 @@ ul.mCustomScrollbar._mCS_3 {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-family: $font-regular;
   }
 
 }
@@ -2021,46 +2031,57 @@ ul.mCustomScrollbar._mCS_3 {
 }
 
 .lk-order-list {
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .lk-order-item {
   border: 1px solid #e8edf5;
+  margin-bottom: 25px;
   &__header {
-    display: flex;
-    justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
     background-color: #f2f4fa;
     padding: 22px 25px 17px;
-    &>* {
-      display: inline-block;
-      vertical-align: middle;
-    }
+    //&>* {
+    //  display: inline-block;
+    //  vertical-align: middle;
+    //}
   }
   
   &__content {
-
     padding: 20px 28px;
 
+    .btn--accent {
+      width: 225px;
+    }
+
     &--left {
+      padding-right: 15px;
+
       .lk-order-title {
         margin-bottom: 5px;
       }
     }
+
     &--right {
+      padding-right: 15px;
+
       .lk-order-title {
         margin-bottom: 5px;
+      }
+
+      .btn.btn--accent {
+        width: 225px;
+        float: right;
       }
     }
     &--bottom {
       .lk-order-title {
         margin-bottom: 15px;
       }
+
       .btn {
         margin-right: 20px;
-
-        &.btn--accent {
-          width: 225px;
-        }
       }
     }
     
@@ -2076,13 +2097,42 @@ ul.mCustomScrollbar._mCS_3 {
       } 
     }
   }
-
 }
 
 .lk-order-title {
   font-size: 16px;
 }
 
+.lk-form {
+  margin-bottom: 120px;
+
+  &__left {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+    padding-right: 10px;
+    margin: 0 -2px 30px;
+  }
+
+  &__right {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+    margin: 0 -2px 30px;
+    padding-left: 10px;
+  }
+
+  &__bottom {
+    .btn {
+      width: 280px;
+      margin-right: 20px;
+    }
+  }
+
+  fieldset {
+    margin-bottom: 25px;
+  }
+}
 
 
 

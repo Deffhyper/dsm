@@ -469,6 +469,10 @@
 .product-description {
   margin-bottom: 45px;
 
+  .caret.open {
+    transform: rotateZ(-45deg);
+  }
+
   &__title {
     font-size: 19px;
     text-transform: uppercase;
@@ -487,6 +491,7 @@
   &__link {
     font-family: $font-normal;
     padding-top: 10px;
+
   }
 
   &__text {

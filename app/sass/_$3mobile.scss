@@ -433,7 +433,7 @@
     height: auto;
     overflow: visible;
     background-color: #e0e4ef;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 
   ////////////////////////////////////////////////// template orders /////////////////////
@@ -712,7 +712,7 @@
   }
 
   .lk-order-item__header {
-    padding: 15px 20px 20px;
+    padding: 15px 15px 20px;
   }
 
   .lk-order-item__content {
@@ -743,6 +743,44 @@
     margin-bottom: 60px;
   }
 
+  .lk-order-item__header .pull-right {
+   float: none !important;
+  }
+
+  .lk-order-item__content .btn--accent {
+    width: 225px;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  //.lk-form fieldset {
+  //  margin-bottom: 15px;
+  //}
+
+  .lk-form__left,
+  .lk-form__right {
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding: 0;
+  }
+
+  .lk-form__right {
+    margin-bottom: 25px;
+  }
+
+  .lk-form {
+    margin-bottom: 60px;
+  }
+
+  .lk-form__bottom .btn {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
 
 
 

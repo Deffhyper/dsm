@@ -483,7 +483,7 @@
                             <section class="product-four-item-slider">
                                 <div class="container">
                                     <div class="row">
-                                        <h4 class="product-description__title">Расходные материалы</h4>
+                                        <h4 class="product-description__title slider-title">Расходные материалы</h4>
                                         <div class="four-item-slider__no-dots">
                                             <div>
                                                 <div class="goods goods--short">
@@ -856,7 +856,7 @@
                             <section class="product-four-item-slider">
                                 <div class="container">
                                     <div class="row">
-                                        <h4 class="product-description__title">Опции</h4>
+                                        <h4 class="product-description__title slider-title">Опции</h4>
                                         <div class="four-item-slider__no-dots">
                                             <div>
                                                 <div class="goods goods--short">
@@ -1320,7 +1320,7 @@
     <section class="bottom-padding">
         <div class="container">
             <div class="row">
-                <h3 class="section-title text-uppercase">С этим товаром рекомендуем</h3>
+                <h3 class="section-title text-uppercase slider-title">С этим товаром рекомендуем</h3>
                 <div class="four-item-slider__no-dots">
                     <div>
                         <div class="goods goods--short">
@@ -1687,7 +1687,7 @@
     <section class="bottom-padding">
         <div class="container">
             <div class="row">
-                <h3 class="section-title text-uppercase">Похожие товары</h3>
+                <h3 class="section-title text-uppercase slider-title">Похожие товары</h3>
                 <div class="four-item-slider__no-dots">
                     <div>
                         <div class="goods goods--short">

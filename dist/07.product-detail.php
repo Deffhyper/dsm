@@ -159,8 +159,8 @@
                         </div>
                         <div class="goods-additions">
                             <form action="#">
-                                <input type="checkbox" id="ga-1" class="custom-switch" checked>
-                                <label for="ga-1">с тонером - <span class="text-bold">300 грн</span></label>
+                                <input type="checkbox" id="product-switch" class="custom-switch" checked>
+                                <label for="product-switch">с тонером - <span class="text-bold">300 грн</span></label>
                             </form>
                         </div>
                         <div class="goods-start-tips">
@@ -524,7 +524,7 @@
                             <section class="product-four-item-slider">
                                 <div class="container">
                                     <div class="row">
-                                        <h4 class="product-description__title">Расходные материалы</h4>
+                                        <h4 class="product-description__title slider-title">Расходные материалы</h4>
 
                                         <div class="four-item-slider__no-dots">
                                             <div>
@@ -919,7 +919,7 @@
                             <section class="product-four-item-slider">
                                 <div class="container">
                                     <div class="row">
-                                        <h4 class="product-description__title">Опции</h4>
+                                        <h4 class="product-description__title slider-title">Опции</h4>
 
                                         <div class="four-item-slider__no-dots">
                                             <div>
@@ -1419,7 +1419,7 @@
     <section class="bottom-padding">
         <div class="container">
             <div class="row">
-                <h3 class="section-title text-uppercase">С этим товаром рекомендуем</h3>
+                <h3 class="section-title text-uppercase slider-title">С этим товаром рекомендуем</h3>
 
                 <div class="four-item-slider__no-dots">
                     <div>
@@ -1789,7 +1789,7 @@
     <section class="bottom-padding">
         <div class="container">
             <div class="row">
-                <h3 class="section-title text-uppercase">Похожие товары</h3>
+                <h3 class="section-title text-uppercase slider-title">Похожие товары</h3>
 
                 <div class="four-item-slider__no-dots">
                     <div>

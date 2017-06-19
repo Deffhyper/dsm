@@ -488,6 +488,10 @@ span.bs-caret {
   z-index: 1;
   position: relative;
   display: inline-block;
+
+  &.slider-title {
+    padding-right: 75px;
+  }
 }
 
 @media ($tablet) {
@@ -499,6 +503,7 @@ span.bs-caret {
   .section-title {
     font-size: 24px;
   }
+
 }
 
 .goods {
@@ -843,9 +848,14 @@ span.bs-caret {
   width: 100%;
   height: 48px;
   background-color: transparent;
+  font-size: 14px !important;
+  font-family: $font-light !important;
+  color: #3f404e;
+
   @include placeholder {
     color: #b8b8c0;
-    font-size: 14px;
+    font-size: 14px !important;
+    font-family: $font-light !important;
   }
 }
 
@@ -885,9 +895,14 @@ span.bs-caret {
   background-color: transparent;
   border: 2px solid #454e66;
   width: 100%;
+  font-size: 14px !important;
+  font-family: $font-light !important;
+  color: #3f404e;
+
   @include placeholder {
     color: #b8b8c0;
-    font-size: 14px;
+    font-size: 14px !important;
+    font-family: $font-light !important;
   }
 }
 
@@ -995,7 +1010,70 @@ span.bs-caret {
   font-size: 14px;
 }
 
+//////////////////////////////////////////////////// bootstrap-switch //////////////////////////////
 
+.bootstrap-switch {
+  border: 0;
+  border-radius: 0;
+
+  &.bootstrap-switch-on {
+    .bootstrap-switch-handle-off:after {
+      background-color: transparent;
+    }
+  }
+  &.bootstrap-switch-off {
+    .bootstrap-switch-handle-on:after {
+      background-color: transparent;
+    }
+  }
+
+  .bootstrap-switch-container {
+    border-radius: 0;
+  }
+
+  .bootstrap-switch-label {
+    background: #fff url("../img/svg-icon/sw.svg") no-repeat center;
+    border-radius: 50% !important;
+    padding: 4px 6px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .bootstrap-switch-handle-on {
+    background-color: transparent !important;
+    position: relative;
+    &:after {
+      content: '';
+      width: 39px;
+      height: 11px;
+      position: absolute;
+      background-color: $second-accent;
+      border-radius: 11px;
+      top: 12px;
+      right: -5px;
+      z-index: 1;
+      transition: background-color .4s ease;
+    }
+  }
+
+  .bootstrap-switch-handle-off {
+    background-color: transparent !important;
+    position: relative;
+    &:after {
+      content: '';
+      width: 39px;
+      height: 11px;
+      position: absolute;
+      background-color: #dee4f2;
+      border-radius: 11px;
+      top: 12px;
+      left: -5px;
+      z-index: 1;
+      transition: background-color .4s ease;
+    }
+  }
+
+}
 
 
 

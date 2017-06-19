@@ -522,7 +522,24 @@ $(function() {
 
     /////////////////////////////////// bootstrap switch //////////////////////////
 
-    $('.custom-switch').bootstrapSwitch();
+    $('#product-switch').bootstrapSwitch({
+        onText: '',
+        offText: '',
+        labelWidth: 20,
+        handleWidth: 10,
+        onSwitchChange: function(event, state){
+            if(!state){
+                $('label[for="product-switch"]').html('без тонера');
+            } else {
+                $('label[for="product-switch"]').html('с тонером - <span class="text-bold">300 грн</span>');
+            }
+
+
+        }
+
+    });
+
+
 
 
     ///////////////////////////////////// product detail slider /////////////////////////////////////////////////
@@ -675,6 +692,7 @@ $(function() {
 
     $('.product-description__spoiler').on('click', function(e){
         e.preventDefault();
+        $(this).next('.caret').toggleClass('open');
         var spoilerText = $(this).prev('.product-description__text');
         if(!spoilerText.hasClass('open')){
             spoilerText.addClass('open');

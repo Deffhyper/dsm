@@ -85,7 +85,7 @@
                     </fieldset>
                     <fieldset>
                         <label for="of-5" class="custom-input-label">Телефон</label>
-                        <input type="password" id="of-5" class="custom-input" placeholder="Введите номер телефона">
+                        <input type="tel" id="of-5" class="custom-input" placeholder="Введите номер телефона">
                     </fieldset>
                     <fieldset>
                         <label for="smart-search-input" class="custom-input-label">Город</label>

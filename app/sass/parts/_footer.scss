@@ -104,6 +104,16 @@ body:after {
 }
 
 .site-footer-develop {
+
+  .sprite-webvision {
+    //width: 87px;
+    //height: 15px;
+    //display: inline-block;
+    //cursor: pointer;
+    //background: url("../img/svg-icon/WebVision_logo.svg") no-repeat center center;
+    //background-size: cover;
+
+  }
   a:hover {
     .sprite-webvision {
       @include sprite($webvision-hover);
@@ -371,15 +381,38 @@ body:after {
 
 .modal-header {
   .close {
-    @include sprite($modal-close);
+    height: 22px;
+    width: 22px;
     display: inline-block;
     position: absolute;
     top: -30px;
     right: 0;
-    transition: .3s ease;
-    &:hover {
-      transform: rotateZ(1260deg);
+
+    &:after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 23px;
+      background-color: #fff;
+      transform: rotateZ(45deg);
+      position: absolute;
+      top: 10px;
+      left: 0;
+
     }
+    &:before {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 23px;
+      background-color: #fff;
+      transform: rotateZ(-45deg);
+      position: absolute;
+      top: 10px;
+      left: 0;
+
+    }
+
   }
 }
 

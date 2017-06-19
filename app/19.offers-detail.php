@@ -59,7 +59,7 @@
             <section>
                 <div class="container">
                     <div class="row">
-                        <h2 class="section-title text-uppercase">В акции участвуют</h2>
+                        <h2 class="section-title text-uppercase slider-title">В акции участвуют</h2>
                         <div class="four-item-slider">
                             <div>
                                 <div class="goods">
