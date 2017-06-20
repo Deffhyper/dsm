@@ -2160,7 +2160,49 @@ ul.mCustomScrollbar._mCS_3 {
   }
 }
 
+.sitemap {
+  margin-bottom: 60px;
 
+  &__item {
+    margin-bottom: 3px;
+
+    &--head {
+      cursor: pointer;
+      background-color: #f2f4fa;
+      max-width: 400px;
+      padding: 12px 20px;
+      position: relative;
+      transition: .3s ease;
+
+      &:hover {
+        background-color: #e3e7f3;
+      }
+
+      a {
+        display: inline-block;
+      }
+
+      .caret {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        margin-top: -2px;
+        transition: .3s ease;
+      }
+
+      &:not(.collapsed) {
+        .caret {
+          transform: rotateZ(45deg);
+        }
+      }
+    }
+  }
+
+}
+
+.sitemap__item--collapse {
+  display: none;
+}
 
 
 

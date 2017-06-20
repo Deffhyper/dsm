@@ -6244,6 +6244,37 @@ ul.mCustomScrollbar._mCS_3 {
     .lk-cancel__bottom .btn {
       width: 225px; }
 
+.sitemap {
+  margin-bottom: 60px; }
+  .sitemap__item {
+    margin-bottom: 3px; }
+    .sitemap__item--head {
+      cursor: pointer;
+      background-color: #f2f4fa;
+      max-width: 400px;
+      padding: 12px 20px;
+      position: relative;
+      -webkit-transition: .3s ease;
+      transition: .3s ease; }
+      .sitemap__item--head:hover {
+        background-color: #e3e7f3; }
+      .sitemap__item--head a {
+        display: inline-block; }
+      .sitemap__item--head .caret {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        margin-top: -2px;
+        -webkit-transition: .3s ease;
+        transition: .3s ease; }
+      .sitemap__item--head:not(.collapsed) .caret {
+        -webkit-transform: rotateZ(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotateZ(45deg); }
+
+.sitemap__item--collapse {
+  display: none; }
+
 @media (min-width: 1440px) {
   .top-slider-bg__item {
     background-size: cover; } }

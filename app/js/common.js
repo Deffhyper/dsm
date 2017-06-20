@@ -923,8 +923,24 @@ $(function() {
                 ]
             });
         }, 200)
-    })
+    });
 
+
+    /////////////////////////////////////////// sitemap ///////////////////////////
+
+    $('.sitemap__item--head').on('click', function () {
+        if($(this).hasClass('collapsed')){
+            $(this).removeClass('collapsed');
+            $(this).next().slideDown();
+            $(this).parent('.sitemap__item').siblings().find('.sitemap__item--collapse').slideUp();
+            $(this).parent('.sitemap__item').siblings().find('.sitemap__item--head').addClass('collapsed');
+
+        } else {
+            $(this).addClass('collapsed');
+            $(this).next().slideUp();
+        }
+
+    })
 
 
 
