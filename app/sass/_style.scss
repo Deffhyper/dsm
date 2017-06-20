@@ -2135,7 +2135,30 @@ ul.mCustomScrollbar._mCS_3 {
 }
 
 
+.lk-cancel {
+  margin-bottom: 100px;
 
+  p{
+    margin-bottom: 7px;
+  }
+
+  label {
+    margin-bottom: 13px;
+    display: inline-block;
+  }
+
+  &__back {
+    margin-top: -10px;
+    padding-bottom: 22px;
+  }
+
+  &__bottom {
+    margin-top: 30px;
+    .btn {
+      width: 225px;
+    }
+  }
+}
 
 
 

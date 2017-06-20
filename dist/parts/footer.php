@@ -182,7 +182,7 @@
 
 <!-- Modal callback-3-->
 <div id="modal-order" class="modal fade" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog__big--white">
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
@@ -193,21 +193,109 @@
                 <div class="modal-order callback-form-wrapper">
                     <form action="#">
                         <fieldset>
-                            <label for="m-5" class="modal-label">Ваше имя</label>
-                            <input type="text" id="m-5" class="modal-input" placeholder="Введите свое имя">
+                            <label for="m-5" class="custom-input-label">Ваше имя</label>
+                            <input type="text" id="m-5" class="custom-input" placeholder="Введите свое имя">
                         </fieldset>
                         <fieldset>
-                            <label for="m-6" class="modal-label">Телефон</label>
-                            <input type="tel" id="m-6" class="modal-input tel-input" placeholder="Введите ваш номер телефона">
+                            <label for="m-6" class="custom-input-label">Телефон</label>
+                            <input type="tel" id="m-6" class="custom-input" placeholder="Введите ваш номер телефона">
                         </fieldset>
                         <fieldset>
-                            <label for="m-7" class="modal-label">E-mail</label>
-                            <input type="email" id="m-7" class="modal-input" placeholder="Введите ваш E-mail">
+                            <label for="m-7" class="custom-input-label">E-mail</label>
+                            <input type="email" id="m-7" class="custom-input" placeholder="Введите ваш E-mail">
                         </fieldset>
                         <fieldset>
                             <button type="submit" class="btn btn-round btn--accent modal-btn">отправить</button>
                         </fieldset>
                     </form>
+                </div>
+                <div class="modal-slider-block">
+                    <p class="modal-subtitle text-uppercase">Похожие товары</p>
+                    <div class="four-item-slider__last-seems">
+                        <div>
+                            <div class="goods goods__last-seems">
+                                <div class="goods-image">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/g-1.jpg" alt="printer">
+                                    </a>
+                                </div>
+                                <div class="goods-title">
+                                    <a href="#">МФУ 36" цветное imagePRO&shy;GRAF iPF770 MFP L36 МФУ 36" цветное
+                                        imagePROGRAF
+                                        iPF770 MFP L36 МФУ 36" цветное imagePROGRAF iPF770 MFP L36</a>
+                                </div>
+
+                                <div class="goods-price">
+                                    <span class="old-price">121 789 грн</span>
+                                    <span class="current-price text-bold text-accent"><a href="#">120 438 грн</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="goods goods__last-seems">
+                                <div class="goods-image">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/g-2.jpg" alt="printer">
+                                    </a>
+                                </div>
+                                <div class="goods-title">
+                                    <a href="#">МФУ A4 цветное Canon im&shy;ageRUNNER C1225</a>
+                                </div>
+                                <div class="goods-price">
+                                    <span class="old-price">17 350 грн</span>
+                                    <span class="current-price text-bold text-accent"><a href="#">16 800 грн</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="goods goods__last-seems">
+                                <div class="goods-image">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/g-3.jpg" alt="printer">
+                                    </a>
+                                </div>
+                                <div class="goods-title">
+                                    <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                </div>
+                                <div class="goods-price">
+                                    <span class="old-price">41 700 грн</span>
+                                    <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="goods goods__last-seems">
+                                <div class="goods-image">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/g-1.jpg" alt="printer">
+                                    </a>
+                                </div>
+                                <div class="goods-title">
+                                    <a href="#">МФУ А0 Oce PlotWave 345H 2R</a>
+                                </div>
+                                <div class="goods-price">
+                                    <span class="old-price">702 670 грн</span>
+                                    <span class="current-price text-bold text-accent"><a href="#">698 390 грн</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="goods goods__last-seems">
+                                <div class="goods-image">
+                                    <a href="#">
+                                        <img src="img/jpeg_files/g-3.jpg" alt="printer">
+                                    </a>
+                                </div>
+                                <div class="goods-title">
+                                    <a href="#">Плоттер Canon imagePROGRAF iPF770 incl. Stand 36"( А0+)</a>
+                                </div>
+                                <div class="goods-price">
+                                    <span class="old-price">41 700 грн</span>
+                                    <span class="current-price text-bold text-accent"><a href="#">40 200 грн</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -899,6 +899,10 @@ span.bs-caret {
   font-family: $font-light !important;
   color: #3f404e;
 
+  &.custom-textarea--gray {
+    border: 1px solid #d8def0;
+  }
+
   @include placeholder {
     color: #b8b8c0;
     font-size: 14px !important;

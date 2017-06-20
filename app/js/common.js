@@ -250,7 +250,7 @@ $(function() {
 
     //////////////////////////////////////////// masked tel input ////////////////
 
-    $('.tel-input').mask("+38(999) 999-99-99");
+    $('[type="tel"]').mask("+38(999) 999-99-99");
 
     ///////////////////////////////////////////// responsive table ///////////////////
 
@@ -893,6 +893,37 @@ $(function() {
             $('.lk-navigate').removeAttr('style');
         }
     });
+
+
+    ////////////////////////////////////////////////// modal with slider ////////////////
+
+    $('#modal-order').on('show.bs.modal', function () {
+        setTimeout(function () {
+            $('.four-item-slider__last-seems').slick({
+                infinite: true,
+                dots: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3
+
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+
+                ]
+            });
+        }, 200)
+    })
 
 
 

@@ -15,14 +15,12 @@
         <div class="block-with-padding block-no-back">
             <ul class="block-with-padding">
                 <li class="li"><a href="#" data-toggle="modal" data-target="#modal-callback-1">Заказать звонок</a></li>
-                <li class="li"><a href="#" data-toggle="modal" data-target="#modal-callback-2">Заказать звонок ы карточке</a></li>
+                <li class="li"><a href="#" data-toggle="modal" data-target="#modal-callback-2">Заказать звонок в карточке</a></li>
                 <li class="li"><a href="#" data-toggle="modal" data-target="#modal-order">Под заказ</a></li>
                 <li class="li"><a href="#" data-toggle="modal" data-target="#modal-fast-order">Быстрый заказ</a></li>
             </ul>
         </div>
     </div>
-
-
 </div>
 
 <?php include_once "parts/footer.php" ?>
