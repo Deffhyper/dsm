@@ -797,8 +797,31 @@
     margin: auto;
   }
 
+/////////////////////////////////////////////////////// 404 /////////////////////////////
 
+  .error-block__back {
+    height: 37vw;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    left: 0;
+  }
 
+  .error-block__back > span.text-bold {
+    font-size: 18vw;
+    top: 5vw;
+    margin-left: -9px;
+  }
+
+  .error-block__back > span.text-accent {
+    font-size: 5vw;
+    bottom: 2vw;
+    margin-left: -7px;
+  }
+
+  .error-block__bottom .btn {
+    margin-top: 0;
+    width: 100%;
+  }
 
 
 
