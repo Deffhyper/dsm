@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container margin-bottom-lg">
     <div class="row">
         <ul class="category">
             <li class="category__item">
@@ -111,12 +111,8 @@
                 </ul>
             </li>
         </ul>
-    </div>
-</div>
 
-<div class="container">
-    <div class="row">
-        <div class="seo-text text-section margin-bottom-lg">
+        <div class="seo-text text-section">
             <p>Компания «ДСМ-Трейд» является поставщиком специализированных IT-решений в области автоматизации
                 проектирования, подготовки производства и документооборота для авиастроения, автомобилестроения,
                 судостроения, полиграфии, промышленного и гражданского строительства и многих других отраслей
@@ -131,6 +127,7 @@
         </div>
     </div>
 </div>
+
 
 <?php include_once "parts/footer.php" ?>
 </body>

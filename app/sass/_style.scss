@@ -24,9 +24,6 @@
 }
 
 .text-section {
-
-  margin-bottom: 60px;
-
   h1, h2, h3 {
     text-transform: uppercase;
   }
@@ -2160,8 +2157,16 @@ ul.mCustomScrollbar._mCS_3 {
   }
 }
 
+/////////////////////////////////////////////////////// site map /////////////////////////////////////////////
+
 .sitemap {
-  margin-bottom: 60px;
+
+  .caret {
+    width: 7px;
+    height: 7px;
+    transform: rotateZ(45deg);
+    transition: .3s ease;
+  }
 
   &__item {
     margin-bottom: 3px;
@@ -2169,8 +2174,8 @@ ul.mCustomScrollbar._mCS_3 {
     &--head {
       cursor: pointer;
       background-color: #f2f4fa;
-      max-width: 400px;
-      padding: 12px 20px;
+      max-width: 395px;
+      padding: 13px 20px;
       position: relative;
       transition: .3s ease;
 
@@ -2185,26 +2190,65 @@ ul.mCustomScrollbar._mCS_3 {
       .caret {
         position: absolute;
         top: 50%;
-        right: 15px;
+        right: 20px;
         margin-top: -2px;
-        transition: .3s ease;
+
+
       }
 
       &:not(.collapsed) {
+        background-color: #e3e7f3;
         .caret {
-          transform: rotateZ(45deg);
+          transform: rotateZ(135deg);
         }
       }
     }
   }
-
 }
 
-.sitemap__item--collapse {
+.sitemap__item--collapse,
+.sitemap__third {
   display: none;
 }
 
+.sitemap__third {
+  font-size: 13px;
+  padding-left: 23px;
+  line-height: 1.9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
 
+.sitemap__second--title {
+  display: inline-block;
+  padding: 6px 0;
+  position: relative;
+
+  &.open {
+    .caret {
+      transform: rotateZ(135deg);
+    }
+  }
+
+  .caret {
+    position: absolute;
+    top: 15px;
+    left: -25px;
+  }
+}
+
+.sitemap__second {
+  padding-left: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+}
 
 
 

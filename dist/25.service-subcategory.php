@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div class="right-block bottom-padding">
+        <div class="right-block">
             <div class="sub-category__wrapper">
                 <a href="#" class="category-mob-title">Выбрать подкатегорию<span class="caret"></span></a>
                 <ul class="sub-category service-subcategory">

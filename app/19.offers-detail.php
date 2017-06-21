@@ -14,7 +14,7 @@
 <div class="container">
     <div class="row">
 
-        <div class="news-detail bottom-padding">
+        <div class="news-detail margin-bottom-lg">
             <div class="news-detail__top">
                 <div class="left">
                     <a href="#" class="btn-round btn-gray-border btn-gray-border__caret left">

@@ -12,7 +12,7 @@
 </div>
 
 
-<section class="text-section">
+<section class="text-section margin-bottom-lg">
     <div class="container">
         <div class="row">
 

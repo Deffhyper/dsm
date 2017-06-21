@@ -1042,6 +1042,80 @@
   }
 }
 
+
+.header-search-result {
+  background-color: rgba(242, 244, 250, 0.949);
+  -webkit-box-shadow: -3.914px 5.803px 8px 0 rgba(14, 16, 54, 0.16);
+  box-shadow: -3.914px 5.803px 8px 0 rgba(14, 16, 54, 0.16);
+  top: 10px;
+  padding: 5px 15px;
+  position: relative;
+  z-index: 5;
+  display: none;
+
+  &__title {
+    font-size: 13px;
+    line-height: 1.5;
+    display: inline-block;
+  }
+
+  .old-price {
+    font-size: 12px;
+  }
+
+  .current-price {
+    font-size: 14px;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 7px solid rgba(242, 244, 250, 0.949);
+    position: absolute;
+    top: -7px;
+    left: 30px;
+  }
+
+  table {
+    width: 100%;
+
+    tr {
+      &:not(:last-child){
+        border-bottom: 1px solid #d4dbeb;
+      }
+
+      &:not(:last-child) td:first-child a {
+        display: inline-block;
+        height: 56px;
+        width: 56px;
+        position: relative;
+        overflow: hidden;
+        margin-right: 15px;
+        img {
+          max-width: 100%;
+          height: auto;
+          vertical-align: middle;
+        }
+      }
+
+
+
+      td {
+        vertical-align: top;
+        padding: 10px 0;
+
+
+
+      }
+    }
+  }
+
+}
+
 ////////////////////////////////////////////////////////header media /////////////////////////////////////////////////
 
 @media ($desktop) {

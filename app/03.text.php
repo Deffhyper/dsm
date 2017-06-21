@@ -12,11 +12,9 @@
 </div>
 
 
-<section class="text-section">
+<section class="text-section margin-bottom-lg">
     <div class="container">
         <div class="row">
-
-
             <img src="img/jpeg_files/t-1.jpg" alt="image" align="left">
 
             <p>Компания «ДСМ-Трейд» является поставщиком специализированных IT-решений в области

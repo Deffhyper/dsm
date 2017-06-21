@@ -29,7 +29,7 @@
             <?php include_once "parts/filter.php"?>
         </div>
 
-        <div class="right-block">
+        <div class="right-block margin-bottom-lg">
             <div class="sub-category__wrapper">
                 <a href="#" class="category-mob-title">Выбрать подкатегорию<span class="caret"></span></a>
                 <ul class="sub-category">
@@ -490,7 +490,7 @@
                     <a href="#" class="btn btn--gray btn-round">еще <span class="sprite-inline sprite-spinner"></span></a>
                 </div>
             </div>
-            <div class="seo-text text-section margin-bottom-lg">
+            <div class="seo-text text-section">
                 <h2 class="seo-text__title">Принтеры</h2>
                 <p>Компания «ДСМ-Трейд» является поставщиком специализированных IT-решений в области автоматизации
                     проектирования, подготовки производства и документооборота для авиастроения, автомобилестроения,

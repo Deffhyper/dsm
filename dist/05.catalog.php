@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container margin-bottom-lg">
     <div class="row">
         <div class="left-sidebar">
             <?php include_once "parts/filter.php"?>
@@ -441,7 +441,7 @@
                     <a href="#" class="btn btn--gray btn-round">еще <span class="sprite-inline sprite-spinner"></span></a>
                 </div>
             </div>
-            <div class="seo-text text-section margin-bottom-lg">
+            <div class="seo-text text-section">
                 <h2 class="seo-text__title">Принтеры</h2>
                 <p>Компания «ДСМ-Трейд» является поставщиком специализированных IT-решений в области автоматизации
                     проектирования, подготовки производства и документооборота для авиастроения, автомобилестроения,

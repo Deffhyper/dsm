@@ -6,78 +6,27 @@
 
 <div class="container">
     <div class="row">
-        <h1 class="page-title">Принтеры</h1>
+        <h1 class="page-title">Результаты поиска “Принтер”</h1>
     </div>
 </div>
 
-<div class="container">
+<div class="container margin-bottom-lg">
     <div class="row">
         <div class="left-sidebar">
             <div class="sidebar__list-wrapper">
                 <a href="#" class="category-mob-title category-mob-title--gray">Выбрать категорию<span class="caret"></span></a>
                 <ul class="sidebar__list">
-                    <li><a href="#">Многофункциональные устройства </a></li>
-                    <li class="active"><a href="#">Принтеры</a></li>
-                    <li><a href="#">Широкоформатные принтеры (плоттеры) и многофункцио- нальные устройства</a></li>
-                    <li><a href="#">Картриджи и расходные материалы</a></li>
-                    <li><a href="#">Сканеры</a></li>
-                    <li><a href="#">Бумага и пленки</a></li>
+                    <li><a href="#">Все результаты</a></li>
+                    <li class="active"><a href="#">Каталог (138)</a></li>
+                    <li><a href="#">Новости (7)</a></li>
+                    <li><a href="#">Сервис и поддержка (2)</a></li>
+                    <li><a href="#">Акции (12)</a></li>
                 </ul>
             </div>
-
-
-            <?php include_once "parts/filter.php"?>
         </div>
 
-        <div class="right-block margin-bottom-lg">
-            <div class="sub-category__wrapper">
-                <a href="#" class="category-mob-title">Выбрать подкатегорию<span class="caret"></span></a>
-                <ul class="sub-category">
-                    <li class="sub-category__item">
-                        <div class="sub-category__item--image">
-                            <img src="img/jpeg_files/cat-1.jpg" alt="category icon">
-                        </div>
-                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Лазерные принтеры</a>
-                    </li>
-                    <li class="sub-category__item">
-                        <div class="sub-category__item--image">
-                            <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
-                        </div>
-                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
-                    </li>
-                    <li class="sub-category__item">
-                        <div class="sub-category__item--image">
-                            <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
-                        </div>
-                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
-                    </li>
-                    <li class="sub-category__item">
-                        <div class="sub-category__item--image">
-                            <img src="img/jpeg_files/cat-2.jpg" alt="category icon">
-                        </div>
-                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Струйные принтеры</a>
-                    </li>
-                    <li class="sub-category__item">
-                        <div class="sub-category__item--image">
-                            <img src="img/jpeg_files/cat-3.jpg" alt="category icon">
-                        </div>
-                        <a href="#" class="link__second-accent link__second-accent--borderDotted link__accent--hover">Линейно-матричные принтеры</a>
-                    </li>
-                </ul>
-            </div>
-
+        <div class="right-block">
             <div class="catalog">
-                <h2 class="catalog__title">Все товары “Принтеры”</h2>
-                <div class="catalog__sort">
-                    <span class="catalog__sort--label text-bold">Сортировать: </span>
-                    <ul class="catalog__sort--list">
-                        <li class="init"><a href="#">сортировать по</a></li>
-                        <li class="active"><a href="#">Новинка</a></li>
-                        <li><a href="#">Акция</a></li>
-                        <li><a href="#">По возрастанию цены</a></li>
-                        <li><a href="#">По убыванию цены</a></li>
-                    </ul>
-                </div>
                 <ul class="catalog__list">
                     <li class="catalog__list--item">
                         <div class="goods">
@@ -489,15 +438,6 @@
                 <div class="catalog__btn">
                     <a href="#" class="btn btn--gray btn-round">еще <span class="sprite-inline sprite-spinner"></span></a>
                 </div>
-            </div>
-            <div class="seo-text text-section">
-                <h2 class="seo-text__title">Принтеры</h2>
-                <p>Компания «ДСМ-Трейд» является поставщиком специализированных IT-решений в области автоматизации
-                    проектирования, подготовки производства и документооборота для авиастроения, автомобилестроения,
-                    судостроения, полиграфии, промышленного и гражданского строительства и многих других отраслей
-                    промышленности. Мы занимаемся автоматизацией проектно-конструкторских и технологических работ,
-                    дистрибьюцией, системной интеграцией программного и аппаратного обеспечения для государственных
-                    структур, банков, промышленных предприятий и проектных организаций.</p>
             </div>
         </div>
     </div>

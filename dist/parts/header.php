@@ -95,6 +95,59 @@
                                 <span class="icon icon-m-glass"></span>
                             </button>
                         </form>
+                        <div class="header-search-result">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/prod-slider-prev.jpg" alt="item"></a>
+                                        </td>
+                                        <td>
+                                            <p><a href="#" class="header-search-result__title text-bold link--accent-hover">Epson Stylus Photo P50 (C11CA45341) + USB cable</a></p>
+                                            <s class="old-price">121 789 грн</s>
+                                            <a href="#" class="current-price text-accent text-bold">120 438 грн</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/prod-slider-prev.jpg" alt="item"></a>
+                                        </td>
+                                        <td>
+                                            <p><a href="#" class="header-search-result__title text-bold link--accent-hover">Epson Stylus Photo P50 (C11CA45341) + USB cable</a></p>
+                                            <s class="old-price">121 789 грн</s>
+                                            <a href="#" class="current-price text-accent text-bold">120 438 грн</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/prod-slider-prev.jpg" alt="item"></a>
+                                        </td>
+                                        <td>
+                                            <p><a href="#" class="header-search-result__title text-bold link--accent-hover">Epson Stylus Photo P50 (C11CA45341) + USB cable</a></p>
+                                            <s class="old-price">121 789 грн</s>
+                                            <a href="#" class="current-price text-accent text-bold">120 438 грн</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="img/jpeg_files/prod-slider-prev.jpg" alt="item"></a>
+                                        </td>
+                                        <td>
+                                            <p><a href="#" class="header-search-result__title text-bold link--accent-hover">Epson Stylus Photo P50 (C11CA45341) + USB cable</a></p>
+                                            <s class="old-price">121 789 грн</s>
+                                            <a href="#" class="current-price text-accent text-bold">120 438 грн</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn btn-link btn-caret">
+                                                <span>смотреть все</span></a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
                     <div class="mob-catalog-double text-center">

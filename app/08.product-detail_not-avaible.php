@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<main class="product">
+<main class="product margin-bottom-lg">
     <div class="container">
         <div class="row">
             <div class="product-top">
@@ -2051,7 +2051,7 @@
             </div>
         </div>
     </section>
-    <section class="bottom-padding">
+    <section>
         <div class="container">
             <div class="row">
                 <h3 class="section-title text-uppercase">Последние просмотренные</h3>
