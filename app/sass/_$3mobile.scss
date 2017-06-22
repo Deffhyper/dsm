@@ -680,6 +680,7 @@
   .lk-cart-table__footer .order-table__total .btn {
     margin: auto;
     display: block;
+    float: none !important;
   }
 
   .lk-cart-table__footer--discountCode {

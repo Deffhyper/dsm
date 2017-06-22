@@ -485,7 +485,8 @@ span.bs-caret {
   margin-top: 1px; }
 
 .bootstrap-select > select {
-  left: 100%; }
+  left: 100%;
+  pointer-events: none; }
 
 .dropdown-menu li a {
   display: block;
@@ -6334,8 +6335,7 @@ ul.mCustomScrollbar._mCS_3 {
             -ms-transform: rotate(135deg);
                 transform: rotateZ(135deg); }
 
-.sitemap__item--collapse,
-.sitemap__third {
+.sitemap__item--collapse {
   display: none; }
 
 .sitemap__third {
@@ -7147,7 +7147,8 @@ ul.mCustomScrollbar._mCS_3 {
     display: none; }
   .lk-cart-table__footer .order-table__total .btn {
     margin: auto;
-    display: block; }
+    display: block;
+    float: none !important; }
   .lk-cart-table__footer--discountCode {
     max-width: 300px;
     margin: 0 auto 15px; }

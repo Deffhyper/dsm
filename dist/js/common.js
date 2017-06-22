@@ -942,22 +942,22 @@ $(function() {
 
     });
 
-    $('.sitemap__second--title').on('click', function (e) {
-
-        if($(this).parent().children().length > 1){
-            e.preventDefault();
-
-            if(!$(this).hasClass('open')) {
-                $(this).next().slideDown();
-                $(this).addClass('open');
-                $(this).parent().siblings().find('.sitemap__third').slideUp();
-                $(this).parent().siblings().find('.sitemap__second--title').removeClass('open');
-            } else {
-                $(this).next().slideUp();
-                $(this).removeClass('open');
-            }
-        }
-    });
+    //$('.sitemap__second--title').on('click', function (e) {
+    //
+    //    if($(this).parent().children().length > 1){
+    //        e.preventDefault();
+    //
+    //        if(!$(this).hasClass('open')) {
+    //            $(this).next().slideDown();
+    //            $(this).addClass('open');
+    //            $(this).parent().siblings().find('.sitemap__third').slideUp();
+    //            $(this).parent().siblings().find('.sitemap__second--title').removeClass('open');
+    //        } else {
+    //            $(this).next().slideUp();
+    //            $(this).removeClass('open');
+    //        }
+    //    }
+    //});
 
     //////////////////////////////////////// search ///////////////////////////////////////////////
 

@@ -176,6 +176,7 @@ span.bs-caret {
 }
 .bootstrap-select>select {
   left: 100%;
+  pointer-events: none;
 }
 .dropdown-menu {
   li {
