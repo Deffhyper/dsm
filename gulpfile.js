@@ -49,7 +49,8 @@ gulp.task('scripts', function() {
 		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js', // custom scroll bar
 		'app/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js', // custom switch input
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // popup gallery
-		'app/libs/quicksearch/dist/jquery.quicksearch.min.js' // smart search
+		'app/libs/quicksearch/dist/jquery.quicksearch.min.js', // smart search
+		'app/libs/waypointAnimation/waypoints.min.js' // way point
 
 
 

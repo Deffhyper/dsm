@@ -539,13 +539,15 @@
 }
 
 .top-menu-catalog__dropdown {
-  column-count: 3;
-  column-gap: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   &--item {
     display: inline-block;
     position: relative;
     padding-right: 30px;
+    width: 33.3%;
 
 
     img {
@@ -1368,6 +1370,10 @@
       .top-menu-catalog__dropdown {
         column-count: 1;
         column-gap: 0;
+        display: block;
+        &--item {
+          width: 100%;
+        }
       }
 
     }
