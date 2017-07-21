@@ -106,12 +106,31 @@
 
 }
 
+.site-header-top__compare {
+  @extend .site-header-top__cart;
+  background-color: #cfd5e9;
+  color: #2c2f7c;
+  &:after {
+    background-color: #c6cee7;
+  }
+  .icon-justice {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 30px;
+  }
+
+  &:hover {
+    background-color: #c8d1eb;
+  }
+}
+
 .site-header-top__logIn {
   float: right;
   background-color: #e3e8f5;
   height: 58px;
-  width: 27%;
-
+  //width: 27%;
+  width: 21%;
   &--icon {
     height: 45px;
     width: 45px;
@@ -939,6 +958,7 @@
     &--item {
       display: block;
       padding: 10px;
+      width: 100%;
     }
   }
 }
@@ -1492,11 +1512,19 @@
 @media ($tablet) {
 
   .site-header-top__logIn {
-    width: 180px;
+    //width: 180px;
+    width: 158px;
   }
   .site-header-middle__search--input {
-    width: 135px;
+    //width: 135px;
+    width: 105px;
   }
+
+  .site-header-middle__search {
+    width: 265px;
+    right: 285px;
+  }
+
   .site-header-logo {
     top: -52px;
     left: 90px;
@@ -1529,6 +1557,21 @@
     background-color: #d8def0;
   }
 
+  .site-header-top .small-screen-button{
+    position: relative;
+    left: -10px;
+    width: 60px;
+  }
+
+  .site-header-top .small-screen-button a span {
+    left: 14px;
+  }
+
+  .site-header-logo {
+    top: -52px;
+    left: 70px;
+  }
+
   .site-header-middle__search {
     width: 100% !important;
     right: 0;
@@ -1545,7 +1588,7 @@
 
   .site-header-top__logIn--icon {
     position: absolute;
-    right: 55px;
+    right: 87px;
     top: 0;
   }
 
@@ -1558,7 +1601,18 @@
     background-color: #c7cfe6;
     color: #2c2f7c;
     top: 6px;
-    right: 10px;
+    right: 3px;
+  }
+
+  .site-header-top__compare {
+    right: 50px;
+  }
+
+  .site-header-top__compare .icon-justice {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 24px;
   }
 
   .site-header-top__cart .icon-shopping-cart {

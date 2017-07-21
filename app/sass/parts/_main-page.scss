@@ -825,7 +825,7 @@ $slider-height: 540px;
   .top-slider-left__item .btn {
     width: 190px;
     font-size: 11px;
-    padding-top: 15px;
+    padding-top: 2px;
   }
 
   .top-slider-left__item--sale > span:first-child {
@@ -865,11 +865,6 @@ $slider-height: 540px;
     font-size: 11px;
     top: 35px;
     right: 14px;
-  }
-
-  .site-header-middle__search {
-    width: 300px;
-    right: 250px;
   }
 
   .top-slider-right__item--title {
@@ -1002,6 +997,7 @@ $slider-height: 540px;
   .top-slider-left__item .btn {
     height: 39px;
     padding-top: 12px;
+    line-height: 19px;
   }
 
   .top-slider-left__item--sale {

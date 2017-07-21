@@ -24,9 +24,15 @@
                         <li><a href="#">Новости</a></li>
                         <li><a href="#">Акции</a></li>
                     </ul>
+
                     <a href="#" class="site-header-top__cart">
                         <span class="icon icon-shopping-cart"></span>
                         <span class="site-header-top__cart--count text-bold">3</span>
+                    </a>
+
+                    <a href="#" class="site-header-top__compare">
+                        <span class="icon icon-justice"></span>
+                        <span class="site-header-top__cart--count text-bold">2</span>
                     </a>
 
                     <div class="site-header-top__logIn">
@@ -34,7 +40,7 @@
                             <span class="icon icon-user"></span>
                         </a>
                         <ul class="site-header-top__logIn--list list-inline">
-                            <li><a href="#" class="link link-underline link--accent-hover">Авторизация</a></li>
+                            <li><a href="#" class="link link-underline link--accent-hover">Вход </a></li>
                             <li><a href="#" class="link link-underline link--accent-hover">Регистрация</a></li>
                         </ul>
                     </div>
