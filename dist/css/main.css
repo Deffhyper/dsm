@@ -6445,6 +6445,43 @@ ul.mCustomScrollbar._mCS_3 {
               border-radius: 50px;
       line-height: 54px; }
 
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+  border-top: 1px solid #2c2f7c;
+  border-bottom: 0; }
+
+.bootstrap-select.btn-group .dropdown-menu li a {
+  padding: 7px 0 7px 15px; }
+
+.custom-select {
+  display: none; }
+  .custom-select .btn {
+    width: 100%; }
+  .custom-select .dropdown-menu {
+    top: 40px; }
+  .custom-select.bootstrap-select.btn-group .dropdown-toggle .caret {
+    right: 10px;
+    margin-top: 10px; }
+
+.search-input {
+  position: relative;
+  display: block;
+  border-width: 0 0 2px 0;
+  border-bottom-style: solid;
+  border-bottom-color: #454e66;
+  padding: 0;
+  height: 40px;
+  background-color: transparent;
+  font-size: 14px !important;
+  font-family: "GothamProLight", sans-serif !important;
+  color: #3f404e;
+  margin-top: 10px; }
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  color: #92929e;
+  font-size: 14px;
+  font-family: "GothamProLight", sans-serif;
+  text-transform: none; }
+
 @media (min-width: 1440px) {
   .top-slider-bg__item {
     background-size: cover; } }

@@ -45,14 +45,11 @@ gulp.task('scripts', function() {
 		'app/libs/stacktable/stacktable.js', // stack table
 		'app/libs/masked-input/masked-input.js',// masked input
 		'app/libs/jquery-ui-1.11.4.custom/jquery-ui.min.js',// jquery ui range slider
-		'app/libs/bootstrap-select/dist/js/bootstrap-select.min.js',// jquery ui range slider
+		'app/libs/bootstrap-select/dist/js/bootstrap-select.min.js',// custom select
 		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js', // custom scroll bar
 		'app/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js', // custom switch input
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // popup gallery
-		'app/libs/quicksearch/dist/jquery.quicksearch.min.js', // smart search
-		'app/libs/waypointAnimation/waypoints.min.js' // way point
-
-
+		'app/libs/quicksearch/dist/jquery.quicksearch.min.js'// smart search
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js

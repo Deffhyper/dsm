@@ -2303,8 +2303,51 @@ ul.mCustomScrollbar._mCS_3 {
 }
 
 
+//////////////////////////// custom select /////////////////////////
 
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+  border-top: 1px solid #2c2f7c;
+  border-bottom: 0;
+}
+.bootstrap-select.btn-group .dropdown-menu li a {
+  padding: 7px 0 7px 15px;
+}
 
+.custom-select {
+  display: none;
+  .btn {
+    width: 100%;
+  }
+  .dropdown-menu {
+    top: 40px;
+  }
+  &.bootstrap-select.btn-group .dropdown-toggle .caret {
+    right: 10px;
+    margin-top: 10px;
+  }
+}
+
+.search-input {
+  position: relative;
+  display: block;
+  border-width: 0 0 2px 0;
+  border-bottom-style: solid;
+  border-bottom-color: #454e66;
+  padding: 0;
+  height: 40px;
+  background-color: transparent;
+  font-size: 14px !important;
+  font-family: "GothamProLight", sans-serif !important;
+  color: #3f404e;
+  margin-top: 10px;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  color: rgb(146, 146, 158);
+  font-size: 14px;
+  font-family: $font-light;
+  text-transform: none;
+}
 
 
 

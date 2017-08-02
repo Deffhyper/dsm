@@ -974,6 +974,15 @@ $(function() {
     });
 
 
+    ////////////////////////////////////// custom select /////////////////////////////////////
+
+    $('.custom-select').selectpicker({
+        style: 'custom-input'
+    });
+
+
+
+
 
 
 

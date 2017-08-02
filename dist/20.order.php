@@ -89,24 +89,20 @@
                     </fieldset>
                     <fieldset>
                         <label for="smart-search-input" class="custom-input-label">Город</label>
+
                         <div class="search-input">
-                            <div class="caret"></div>
-                            <input type="text" id="smart-search-input" class="custom-input" placeholder="Введите название города">
-                            <div id="smart-search-result" class="search-input-result">
-                                <ul>
-                                    <li><a href="#">Киев</a></li>
-                                    <li><a href="#">Харьков</a></li>
-                                    <li><a href="#">Запорожье</a></li>
-                                    <li><a href="#">Донецк</a></li>
-                                    <li><a href="#">Луганск</a></li>
-                                    <li><a href="#">Винница</a></li>
-                                    <li><a href="#">Днепропетровск</a></li>
-                                    <li><a href="#">Чернигов</a></li>
-                                    <li><a href="#">Львов</a></li>
-                                    <li><a href="#">Одесса</a></li>
-                                    <li id="noResult"><a href="#">Нет результатов</a></li>
-                                </ul>
-                            </div>
+                            <select class="custom-select" title="Введите название города">
+                                <option value="1">Киев</option>
+                                <option value="2">Харьков</option>
+                                <option value="3">Запорожье</option>
+                                <option value="4">Донецк</option>
+                                <option value="5">Луганск</option>
+                                <option value="6">Винница</option>
+                                <option value="7">Днепропетровск</option>
+                                <option value="8">Чернигов</option>
+                                <option value="9">Львов</option>
+                                <option value="10">Одесса</option>
+                            </select>
                         </div>
                     </fieldset>
 
