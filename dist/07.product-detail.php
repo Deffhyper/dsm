@@ -175,7 +175,7 @@
                                     <div class="goods-amount">
                                         <form action="#">
                                             <button type="button" class="dec"><span class="caret"></span></button>
-                                            <input type="text" value="1 шт." class="goods-amount-input">
+                                            <input type="text" value="1 шт." class="goods-amount-input" autocomplete="off">
                                             <button type="button" class="inc"><span class="caret"></span></button>
                                         </form>
 
@@ -1378,7 +1378,7 @@
                                     <fieldset>
                                         <label for="gf-1" class="custom-input-label">Ваше имя</label>
                                         <input type="text" id="gf-1" class="custom-input"
-                                               placeholder="Введите ваше имя">
+                                               placeholder="Введите ваше имя" autocomplete="off">
                                     </fieldset>
                                     <fieldset>
                                         <label for="gf-2" class="custom-input-label">E-mail</label>

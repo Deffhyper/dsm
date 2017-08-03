@@ -974,7 +974,7 @@
 
                     <form action="#">
                         <div class="subscribe__form">
-                            <input type="text" class="subscribe__form--input" placeholder="Ваш e-mail">
+                            <input type="email" class="subscribe__form--input" placeholder="Ваш e-mail">
                             <button type="submit" class="subscribe__form--button"><span class="icon icon-message"></span></button>
                         </div>
                     </form>

@@ -13,7 +13,7 @@
 <div class="container">
     <div class="row">
         <div class="order">
-            <div class="order-table">
+            <div  id="sticky-block" class="order-table">
                 <h2 class="order-form__title">Товары в заказе</h2>
                 <table class="order-table__item">
                     <tbody>
@@ -76,7 +76,7 @@
                     </fieldset>
                     <fieldset>
                         <label for="of-3" class="custom-input-label">Ваше имя</label>
-                        <input type="text" id="of-3" class="custom-input" placeholder="Введите ваше имя">
+                        <input type="text" id="of-3" class="custom-input" placeholder="Введите ваше имя" autocomplete="off">
                     </fieldset>
                     <fieldset>
                         <label for="of-4" class="custom-input-label">E-mail</label>
@@ -127,17 +127,17 @@
 
                     <fieldset>
                         <label for="of-8" class="custom-input-label">Улица</label>
-                        <input type="text" id="of-8" class="custom-input" placeholder="Введите название вашей улицы">
+                        <input type="text" id="of-8" class="custom-input" placeholder="Введите название вашей улицы" autocomplete="off">
                     </fieldset>
 
                     <fieldset class="order-form__input-inline">
                         <div class="custom-input__wrapper">
                             <label for="of-9" class="custom-input-label">Дом</label>
-                            <input type="text" id="of-9" class="custom-input" placeholder="Номер дома">
+                            <input type="text" id="of-9" class="custom-input" placeholder="Номер дома" autocomplete="off">
                         </div>
                         <div class="custom-input__wrapper">
                             <label for="of-10" class="custom-input-label">Квартира/офис</label>
-                            <input type="text" id="of-10" class="custom-input" placeholder="Номер квартиры/офиса">
+                            <input type="text" id="of-10" class="custom-input" placeholder="Номер квартиры/офиса" autocomplete="off">
                         </div>
                     </fieldset>
 

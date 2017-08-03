@@ -972,5 +972,34 @@ $(function () {
     });
 
 
+    ///////////////////////////////////// sticky block in order page ////////////////////////
+
+    if(innerWidth > 1280){
+        $('#sticky-block').stick_in_parent({
+            offset_top: 80
+        });
+    } else if (innerWidth < 1280 && innerWidth > 768) {
+        $('#sticky-block').stick_in_parent({
+            offset_top: 20
+        });
+    } else {
+        $("#sticky-block").trigger("sticky_kit:detach");
+    }
+
+    $(window).on('resize', function () {
+        if (innerWidth < 768) {
+            $("#sticky-block").trigger("sticky_kit:detach");
+        } else {
+            $('#sticky-block').stick_in_parent({
+                offset_top: 80
+            });
+        }
+    });
+
+
 });
+
+
+
+
 

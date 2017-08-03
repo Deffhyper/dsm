@@ -72,7 +72,7 @@
                                 <label for="gf-1" class="custom-input-label">Ваше имя
                                     <mark class="red-marker">*</mark>
                                 </label>
-                                <input type="text" id="gf-1" class="custom-input" placeholder="Введите ваше имя">
+                                <input type="text" id="gf-1" class="custom-input" placeholder="Введите ваше имя" autocomplete="off">
                             </fieldset>
                             <fieldset>
                                 <label for="gf-2" class="custom-input-label">E-mail</label>

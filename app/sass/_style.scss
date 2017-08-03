@@ -1007,11 +1007,13 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  align-items: flex-start;
 
 }
 
 .order-table {
   width: 57%;
+  //float: right;
 
 
   &__item {
@@ -1084,6 +1086,8 @@
 .order-form {
   width: 33%;
   margin-bottom: 60px;
+  //float: left;
+
   
   &__title {
     font-size: 19px;

@@ -63,7 +63,7 @@
                                     <div class="goods-amount">
                                         <form action="#">
                                             <button type="button" class="dec"><span class="caret"></span></button>
-                                            <input type="text" value="1 шт." class="goods-amount-input">
+                                            <input type="text" value="1 шт." class="goods-amount-input" autocomplete="off">
                                             <button type="button" class="inc"><span class="caret"></span></button>
                                         </form>
                                     </div>
@@ -107,7 +107,7 @@
                                     <div class="goods-amount">
                                         <form action="#">
                                             <button type="button" class="dec"><span class="caret"></span></button>
-                                            <input type="text" value="1 шт." class="goods-amount-input">
+                                            <input type="text" value="1 шт." class="goods-amount-input" autocomplete="off">
                                             <button type="button" class="inc"><span class="caret"></span></button>
                                         </form>
                                     </div>
@@ -152,7 +152,7 @@
                                     <div class="goods-amount">
                                         <form action="#">
                                             <button type="button" class="dec"><span class="caret"></span></button>
-                                            <input type="text" value="1 шт." class="goods-amount-input">
+                                            <input type="text" value="1 шт." class="goods-amount-input" autocomplete="off">
                                             <button type="button" class="inc"><span class="caret"></span></button>
                                         </form>
                                     </div>
@@ -177,7 +177,7 @@
                                         <div class="lk-cart-table__footer--discountCode">
                                             <form action="#">
                                                 <label for="dc-1">Введите номер купона для скидки:</label>
-                                                <input type="text" id="dc-1">
+                                                <input type="text" id="dc-1" autocomplete="off">
                                             </form>
                                         </div>
                                     </div>
@@ -233,7 +233,7 @@
                                     <div class="goods-amount">
                                         <form action="#">
                                             <button type="button" class="dec"><span class="caret"></span></button>
-                                            <input type="text" value="1 шт." class="goods-amount-input">
+                                            <input type="text" value="1 шт." class="goods-amount-input" autocomplete="off">
                                             <button type="button" class="inc"><span class="caret"></span></button>
                                         </form>
                                     </div>
@@ -278,7 +278,7 @@
                                     <div class="goods-amount">
                                         <form action="#">
                                             <button type="button" class="dec"><span class="caret"></span></button>
-                                            <input type="text" value="1 шт." class="goods-amount-input">
+                                            <input type="text" value="1 шт." class="goods-amount-input" autocomplete="off">
                                             <button type="button" class="inc"><span class="caret"></span></button>
                                         </form>
                                     </div>

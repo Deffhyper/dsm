@@ -55,15 +55,15 @@
                         <div class="lk-form__left">
                             <fieldset>
                                 <label for="r-1" class="custom-input-label">Ваше имя</label>
-                                <input type="text" id="r-1" class="custom-input" placeholder="Введите ваше имя">
+                                <input type="text" id="r-1" class="custom-input" placeholder="Введите ваше имя" autocomplete="off">
                             </fieldset>
                             <fieldset>
                                 <label for="r-2" class="custom-input-label">Фамилия</label>
-                                <input type="text" id="r-2" class="custom-input" placeholder="Введите фамилию">
+                                <input type="text" id="r-2" class="custom-input" placeholder="Введите фамилию" autocomplete="off">
                             </fieldset>
                             <fieldset>
                                 <label for="r-3" class="custom-input-label">Отчество</label>
-                                <input type="text" id="r-3" class="custom-input" placeholder="Введите отчество">
+                                <input type="text" id="r-3" class="custom-input" placeholder="Введите отчество" autocomplete="off">
                             </fieldset>
                         </div>
                         <div class="lk-form__right">

@@ -49,7 +49,8 @@ gulp.task('scripts', function() {
 		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js', // custom scroll bar
 		'app/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js', // custom switch input
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // popup gallery
-		'app/libs/quicksearch/dist/jquery.quicksearch.min.js'// smart search
+		'app/libs/quicksearch/dist/jquery.quicksearch.min.js',// smart search
+		'app/libs/sticky-kit/sticky.min.js' // sticky-kit
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
