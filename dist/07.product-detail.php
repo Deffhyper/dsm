@@ -4,13 +4,14 @@
 
 <?php include_once "parts/breadcrumbs.php" ?>
 
-<div class="container">
-    <div class="row">
-        <h1 class="page-title">Epson Stylus Photo P50 (C11CA45341) + USB cable</h1>
-    </div>
-</div>
 
-<main class="product margin-bottom-lg">
+
+<main itemscope itemtype="http://schema.org/Product" class="product margin-bottom-lg">
+    <div class="container">
+        <div class="row">
+            <h1 itemprop="name" class="page-title">Epson Stylus Photo P50 (C11CA45341) + USB cable</h1>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="product-top">
@@ -45,27 +46,27 @@
                             <div class="product-slider-main">
                                 <div>
                                     <div class="product-slider-main__item">
-                                        <img src="img/jpeg_files/prod-slider.jpg" alt="product">
+                                        <img itemprop="image" src="img/jpeg_files/prod-slider.jpg" alt="product" title="product" width="402" height="404">
                                     </div>
                                 </div>
                                 <div>
                                     <div class="product-slider-main__item">
-                                        <img src="img/jpeg_files/prod-slider.jpg" alt="product">
+                                        <img itemprop="image" src="img/jpeg_files/prod-slider.jpg" alt="product" title="product" width="402" height="404">
                                     </div>
                                 </div>
                                 <div>
                                     <div class="product-slider-main__item">
-                                        <img src="img/jpeg_files/prod-slider.jpg" alt="product">
+                                        <img itemprop="image" src="img/jpeg_files/prod-slider.jpg" alt="product" title="product" width="402" height="404">
                                     </div>
                                 </div>
                                 <div>
                                     <div class="product-slider-main__item">
-                                        <img src="img/jpeg_files/prod-slider.jpg" alt="product">
+                                        <img itemprop="image" src="img/jpeg_files/prod-slider.jpg" alt="product" title="product" width="402" height="404">
                                     </div>
                                 </div>
                                 <div>
                                     <div class="product-slider-main__item">
-                                        <img src="img/jpeg_files/prod-slider.jpg" alt="product">
+                                        <img itemprop="image" src="img/jpeg_files/prod-slider.jpg" alt="product" title="product" width="402" height="404">
                                     </div>
                                 </div>
                             </div>
@@ -73,14 +74,14 @@
                         <div class="product-slider-vertical">
                             <div>
                                 <div class="product-slider-vertical__item">
-                                    <img src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
+                                    <img itemprop="image" src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
 
                                     <div class="product-slider-vertical__item--overlay"></div>
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider-vertical__item">
-                                    <img src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
+                                    <img itemprop="image" src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
 
                                     <div class="product-slider-vertical__item--overlay">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34"
@@ -95,21 +96,21 @@
                             </div>
                             <div>
                                 <div class="product-slider-vertical__item">
-                                    <img src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
+                                    <img itemprop="image" src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
 
                                     <div class="product-slider-vertical__item--overlay"></div>
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider-vertical__item">
-                                    <img src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
+                                    <img itemprop="image" src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
 
                                     <div class="product-slider-vertical__item--overlay"></div>
                                 </div>
                             </div>
                             <div>
                                 <div class="product-slider-vertical__item">
-                                    <img src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
+                                    <img itemprop="image" src="img/jpeg_files/prod-slider-prev.jpg" alt="icon prev">
 
                                     <div class="product-slider-vertical__item--overlay"></div>
                                 </div>
@@ -149,14 +150,21 @@
                 <div class="product-right-block">
                     <div class="product-right-block__left">
                         <ul class="goods-prop">
-                            <li><span>Производитель:</span><span><a href="#">Epson</a></span></li>
+                            <li><span>Производитель:</span><span><a href="#" itemprop="brand">Epson</a></span></li>
                             <li><span>Страна:</span><span><a href="#">Япония</a></span></li>
                             <li><span>Метод печати:</span><span><a href="#">струйная</a></span></li>
                         </ul>
-                        <div class="goods-price">
-                            <span class="current-price text-bold text-accent"><a href="#">120 438 грн</a></span>
+                        <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="goods-price">
+                            <span class="current-price text-bold text-accent"><a href="#">
+                                    <meta itemprop="priceCurrency" content="грн"/>
+                                    <span class="hidden" itemprop="price">120438</span>
+                                    <span>120 438 грн</span>
+                                </a>
+                            </span>
                             <span class="old-price">121 789 грн</span>
+                            <span class="hidden"><link itemprop="availability" href="http://schema.org/InStock"/>Есть в наличии</span>
                         </div>
+
                         <div class="goods-additions">
                             <form action="#">
                                 <input type="checkbox" id="product-switch" class="custom-switch" checked>
@@ -178,7 +186,6 @@
                                             <input type="text" value="1 шт." class="goods-amount-input" autocomplete="off">
                                             <button type="button" class="inc"><span class="caret"></span></button>
                                         </form>
-
                                     </div>
                                 </div>
                                 <div class="col-sm-7 no-padding">
@@ -251,7 +258,7 @@
                 <div class="product-property__item active container-fluid">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 no-padding left">
-                            <div class="product-description">
+                            <div itemprop="description" class="product-description">
                                 <p class="product-description__title">Описание товара</p>
 
                                 <div class="product-description__text">
