@@ -3,7 +3,7 @@
 <?php include_once "parts/header.php" ?>
 
 <div class="top-sliders">
-    <div class="top-slider-bg">
+    <div class="top-slider-bg hidden-slick">
         <div class="top-slider-bg__item" style="background-image: url('img/jpeg_files/slider-back.jpg')">
             <p class="top-slider-bg__item--back">Canon</p>
         </div>
@@ -17,7 +17,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-xs-12 no-padding">
-                <div class="top-slider-left">
+                <div class="top-slider-left hidden-slick">
                     <div>
                         <div class="top-slider-left__item">
                             <p class="top-slider-left__item--title"><a href="#">Canon</a></p>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-xs-12 no-padding hidden-xs">
-                <div class="top-slider-right">
+                <div class="top-slider-right hidden-slick">
                     <div>
                         <div class="top-slider-right__item"
                              style="background: url('img/jpeg_files/slider-back-2.jpg') no-repeat  center / cover">

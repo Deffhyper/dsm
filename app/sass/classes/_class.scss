@@ -27,6 +27,11 @@
   }
 }
 
+.hidden-slick {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .link {
   color: $second-accent;
   transition: .3s ease;

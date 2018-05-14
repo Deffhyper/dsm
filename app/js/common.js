@@ -1,6 +1,46 @@
 "use strict";
 $(function () {
 
+    // func helpers
+
+    function throttle(func, ms) {
+        var isThrottled = false,
+            savedArgs,
+            savedThis;
+        function wrapper() {
+            if (isThrottled) {
+                savedArgs = arguments;
+                savedThis = this;
+                return;
+            }
+            func.apply(this, arguments);
+            isThrottled = true;
+            setTimeout(function() {
+                isThrottled = false;
+                if (savedArgs) {
+                    wrapper.apply(savedThis, savedArgs);
+                    savedArgs = savedThis = null;
+                }
+            }, ms);
+        }
+        return wrapper;
+    }
+
+   function isScrolledIntoView($element) {
+        var offsetTop = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+        var fullyInView = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+
+        var pageTop = $window.scrollTop();
+        var pageBottom = pageTop + $window.height();
+        var elementTop = $element.offset().top;
+        var elementBottom = elementTop + $element.height();
+
+        if (fullyInView) return pageTop < elementTop && pageBottom > elementBottom;
+
+        return elementTop + offsetTop <= pageBottom && elementBottom >= pageTop;
+    }
+
+
     //global scope
     var windowWidth = $(window).width();
 
@@ -39,6 +79,25 @@ $(function () {
 
     ////////////////////////////////////////// top sliders //////////////////////////////////////
 
+    function topSliderAnimation() {
+        var tm = new TimelineMax();
+        tm
+            .from($('.top-slider-bg__item--back'), .5, {left: -50, autoAlpha:0, ease:Expo.easeOut})
+            .staggerFrom($('.top-slider-left__item > *'), .5, {opacity: 0, y: 20, ease:Expo.easeInOut}, .2, "-=1.5");
+    }
+
+    $('.top-slider-bg').on('init', function(slick){
+        $(this).removeClass('hidden-slick');
+        topSliderAnimation();
+
+    });
+
+    $(".top-slider-bg").on("beforeChange", function (){
+        $('.top-slider-bg__item--back').removeAttr('style');
+        $('.top-slider-left__item > *').removeAttr('style');
+        topSliderAnimation();
+    });
+
     $('.top-slider-bg').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -49,6 +108,11 @@ $(function () {
         asNavFor: '.top-slider-left'
     });
 
+    $('.top-slider-left').on('init', function(slick){
+        $(this).removeClass('hidden-slick');
+    });
+
+
     $('.top-slider-left').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -58,6 +122,11 @@ $(function () {
         dots: true,
         focusOnSelect: true
     });
+
+    $('.top-slider-right').on('init', function(slick){
+        $(this).removeClass('hidden-slick');
+    });
+
 
     $('.top-slider-right').slick({
         slidesToShow: 1,

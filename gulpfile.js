@@ -50,7 +50,8 @@ gulp.task('scripts', function() {
 		'app/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js', // custom switch input
 		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // popup gallery
 		'app/libs/quicksearch/dist/jquery.quicksearch.min.js',// smart search
-		'app/libs/sticky-kit/sticky.min.js' // sticky-kit
+		'app/libs/sticky-kit/sticky.min.js', // sticky-kit
+		'app/libs/gsap/src/minified/TweenMax.min.js' // import gsap
 
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js

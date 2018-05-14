@@ -51,6 +51,10 @@ $slider-height: 540px;
     position: relative;
     padding-top: 120px;
 
+    & > *{
+      position: relative;
+    }
+
     &--title {
       font-family: $font-black;
       font-size: 60px;
